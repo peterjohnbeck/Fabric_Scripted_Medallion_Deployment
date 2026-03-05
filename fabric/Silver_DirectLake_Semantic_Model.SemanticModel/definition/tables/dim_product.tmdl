@@ -1,0 +1,178 @@
+table dim_product
+	lineageTag: 1a005001-0005-4000-8000-000000000000
+	sourceLineageTag: [dbo].[dim_product]
+
+	column product_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a005001-0005-4000-8000-000000000001
+		sourceLineageTag: product_key
+		summarizeBy: none
+		sourceColumn: product_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_id
+		dataType: string
+		lineageTag: 1a005001-0005-4000-8000-000000000002
+		sourceLineageTag: product_id
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a005001-0005-4000-8000-000000000003
+		sourceLineageTag: category_key
+		summarizeBy: none
+		sourceColumn: category_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_id
+		dataType: string
+		lineageTag: 1a005001-0005-4000-8000-000000000004
+		sourceLineageTag: category_id
+		summarizeBy: none
+		sourceColumn: category_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_name
+		dataType: string
+		lineageTag: 1a005001-0005-4000-8000-000000000005
+		sourceLineageTag: category_name
+		summarizeBy: none
+		sourceColumn: category_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_code
+		dataType: string
+		lineageTag: 1a005001-0005-4000-8000-000000000006
+		sourceLineageTag: product_code
+		summarizeBy: none
+		sourceColumn: product_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_name
+		dataType: string
+		lineageTag: 1a005001-0005-4000-8000-000000000007
+		sourceLineageTag: product_name
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 1a005001-0005-4000-8000-000000000008
+		sourceLineageTag: description
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column list_price_usd
+		dataType: double
+		lineageTag: 1a005001-0005-4000-8000-000000000009
+		sourceLineageTag: list_price_usd
+		summarizeBy: sum
+		sourceColumn: list_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column standard_cost_usd
+		dataType: double
+		lineageTag: 1a005001-0005-4000-8000-00000000000a
+		sourceLineageTag: standard_cost_usd
+		summarizeBy: sum
+		sourceColumn: standard_cost_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_margin_pct
+		dataType: double
+		lineageTag: 1a005001-0005-4000-8000-00000000000b
+		sourceLineageTag: gross_margin_pct
+		summarizeBy: none
+		sourceColumn: gross_margin_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weight_kg
+		dataType: double
+		lineageTag: 1a005001-0005-4000-8000-00000000000c
+		sourceLineageTag: weight_kg
+		summarizeBy: sum
+		sourceColumn: weight_kg
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lead_time_days
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a005001-0005-4000-8000-00000000000d
+		sourceLineageTag: lead_time_days
+		summarizeBy: none
+		sourceColumn: lead_time_days
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_capital_equip
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a005001-0005-4000-8000-00000000000e
+		sourceLineageTag: is_capital_equip
+		summarizeBy: none
+		sourceColumn: is_capital_equip
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_active
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a005001-0005-4000-8000-00000000000f
+		sourceLineageTag: is_active
+		summarizeBy: none
+		sourceColumn: is_active
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_created_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a005001-0005-4000-8000-000000000010
+		sourceLineageTag: dw_created_at
+		summarizeBy: none
+		sourceColumn: dw_created_at
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_updated_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a005001-0005-4000-8000-000000000011
+		sourceLineageTag: dw_updated_at
+		summarizeBy: none
+		sourceColumn: dw_updated_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_product = entity
+		mode: directLake
+		source
+			entityName: dim_product
+			expressionSource: 'DirectLake - SilverLakehouse'
+

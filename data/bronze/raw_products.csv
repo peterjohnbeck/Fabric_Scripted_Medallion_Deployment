@@ -1,0 +1,501 @@
+product_id,category_id,product_code,product_name,description,list_price_usd,standard_cost_usd,weight_kg,lead_time_days,is_active,created_at
+1,1,HMC-509-HD,HMC-509-HD Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 832mm",142337.09,84829.3,22173.2,10,True,2026-03-01 20:26:44
+2,1,VMC-588,VMC-588 Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 1065mm",126477.11,78474.6,1088.1,14,True,2026-03-01 20:26:44
+3,1,DM-3711-A,DM-3711-A Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 832mm",274927.18,177839.0,493.0,13,True,2026-03-01 20:26:44
+4,1,MX-4652,MX-4652 Machining Center (3-axis),"High-precision 3-axis machining center, table 767mm",125599.38,80744.24,3335.6,20,True,2026-03-01 20:26:44
+5,1,MX-9991,MX-9991 Machining Center (3-axis),"High-precision 3-axis machining center, table 965mm",433944.46,277698.73,16226.0,20,True,2026-03-01 20:26:44
+6,1,VF-6025-B,VF-6025-B Machining Center (3-axis),"High-precision 3-axis machining center, table 638mm",119684.7,69732.78,19939.5,17,True,2026-03-01 20:26:44
+7,1,HMC-6327,HMC-6327 Machining Center (3-axis),"High-precision 3-axis machining center, table 1086mm",206829.88,134232.75,5130.8,19,True,2026-03-01 20:26:44
+8,1,VF-1269-B,VF-1269-B Machining Center (4-axis),"High-precision 4-axis machining center, table 676mm",302557.6,188482.29,7570.9,22,True,2026-03-01 20:26:44
+9,1,5AX-5413-XL,5AX-5413-XL Machining Center (4-axis),"High-precision 4-axis machining center, table 674mm",400054.94,232614.11,24707.5,18,True,2026-03-01 20:26:44
+10,1,HMC-3556-B,HMC-3556-B Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 869mm",501683.4,302973.65,19766.5,20,True,2026-03-01 20:26:44
+11,1,UMC-4439,UMC-4439 Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 808mm",134115.03,83865.72,8103.4,21,True,2026-03-01 20:26:44
+12,1,MX-3693,MX-3693 Machining Center (3-axis),"High-precision 3-axis machining center, table 1042mm",232631.71,135971.13,1699.4,11,True,2026-03-01 20:26:44
+13,1,UMC-7016-B,UMC-7016-B Machining Center (4-axis),"High-precision 4-axis machining center, table 966mm",91387.96,55721.48,29884.8,24,True,2026-03-01 20:26:44
+14,1,VMC-1976-HD,VMC-1976-HD Machining Center (3-axis),"High-precision 3-axis machining center, table 700mm",510612.21,327698.76,23127.4,18,True,2026-03-01 20:26:44
+15,1,DM-2691-A,DM-2691-A Machining Center (3-axis),"High-precision 3-axis machining center, table 919mm",80545.75,51491.09,21674.5,24,True,2026-03-01 20:26:44
+16,1,HMC-4989-XL,HMC-4989-XL Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 1197mm",305085.22,192038.52,4839.3,13,True,2026-03-01 20:26:44
+17,1,VMC-9913,VMC-9913 Machining Center (3-axis),"High-precision 3-axis machining center, table 459mm",222656.24,130545.61,11080.5,17,True,2026-03-01 20:26:44
+18,1,5AX-9395,5AX-9395 Machining Center (3-axis),"High-precision 3-axis machining center, table 1075mm",95723.7,59232.29,2355.6,12,True,2026-03-01 20:26:44
+19,1,EC-9107,EC-9107 Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 1173mm",139394.2,90930.63,12867.2,14,True,2026-03-01 20:26:44
+20,1,5AX-5207-A,5AX-5207-A Machining Center (4-axis),"High-precision 4-axis machining center, table 523mm",643428.25,407296.14,13311.6,24,True,2026-03-01 20:26:44
+21,1,5AX-3781,5AX-3781 Machining Center (3-axis),"High-precision 3-axis machining center, table 472mm",162438.19,101956.8,7134.4,15,True,2026-03-01 20:26:44
+22,1,VMC-3850,VMC-3850 Machining Center (4-axis),"High-precision 4-axis machining center, table 1085mm",533165.79,347206.28,2404.5,15,True,2026-03-01 20:26:44
+23,1,EC-3610-B,EC-3610-B Machining Center (3-axis),"High-precision 3-axis machining center, table 884mm",105552.96,69433.02,17260.0,23,True,2026-03-01 20:26:44
+24,1,DM-3219,DM-3219 Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 455mm",98012.15,60180.95,12880.3,22,True,2026-03-01 20:26:44
+25,1,HMC-1093-A,HMC-1093-A Machining Center (3-axis),"High-precision 3-axis machining center, table 949mm",367820.33,237645.56,3545.3,14,True,2026-03-01 20:26:44
+26,1,EC-2396-A,EC-2396-A Machining Center (4-axis),"High-precision 4-axis machining center, table 963mm",117498.33,72467.81,26272.2,10,True,2026-03-01 20:26:44
+27,1,HMC-928-HD,HMC-928-HD Machining Center (3-axis),"High-precision 3-axis machining center, table 816mm",649023.66,421324.87,29079.2,15,True,2026-03-01 20:26:44
+28,1,EC-7986,EC-7986 Machining Center (4-axis),"High-precision 4-axis machining center, table 671mm",489518.51,320601.36,5189.7,8,True,2026-03-01 20:26:44
+29,1,EC-4773-A,EC-4773-A Machining Center (3-axis),"High-precision 3-axis machining center, table 594mm",344243.08,220318.28,23565.8,23,True,2026-03-01 20:26:44
+30,1,VF-3666,VF-3666 Machining Center (3-axis),"High-precision 3-axis machining center, table 998mm",269179.36,167877.08,22514.9,9,True,2026-03-01 20:26:44
+31,1,EC-8338-XL,EC-8338-XL Machining Center (3-axis),"High-precision 3-axis machining center, table 1009mm",243400.21,141546.26,15382.5,13,True,2026-03-01 20:26:44
+32,1,HMC-3953-A,HMC-3953-A Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 483mm",102840.84,67245.25,7612.6,9,True,2026-03-01 20:26:44
+33,1,DM-9662-B,DM-9662-B Machining Center (3-axis),"High-precision 3-axis machining center, table 671mm",239182.79,157318.3,6366.5,18,True,2026-03-01 20:26:44
+34,1,DM-2244-HD,DM-2244-HD Machining Center (3-axis),"High-precision 3-axis machining center, table 869mm",309301.26,190618.37,27891.8,10,True,2026-03-01 20:26:44
+35,1,HMC-1300-B,HMC-1300-B Machining Center (3-axis),"High-precision 3-axis machining center, table 778mm",125032.46,74971.89,28017.8,10,True,2026-03-01 20:26:44
+36,1,VF-2684-A,VF-2684-A Machining Center (3-axis),"High-precision 3-axis machining center, table 1083mm",458828.76,292580.08,18466.8,24,True,2026-03-01 20:26:44
+37,1,VF-1797,VF-1797 Machining Center (4-axis),"High-precision 4-axis machining center, table 688mm",139221.81,91026.99,22349.8,12,True,2026-03-01 20:26:44
+38,1,5AX-5717,5AX-5717 Machining Center (3-axis),"High-precision 3-axis machining center, table 494mm",337746.57,219749.01,15310.6,16,True,2026-03-01 20:26:44
+39,1,DM-4633,DM-4633 Machining Center (3-axis),"High-precision 3-axis machining center, table 1159mm",80596.45,51866.49,19222.3,16,True,2026-03-01 20:26:44
+40,1,EC-9138-HD,EC-9138-HD Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 436mm",195979.0,113165.98,2534.7,12,True,2026-03-01 20:26:44
+41,1,MX-9643-B,MX-9643-B Machining Center (4-axis),"High-precision 4-axis machining center, table 615mm",109101.11,64114.61,9455.3,9,True,2026-03-01 20:26:44
+42,1,5AX-1784,5AX-1784 Machining Center (3-axis),"High-precision 3-axis machining center, table 566mm",410069.98,267916.31,12369.4,12,True,2026-03-01 20:26:44
+43,1,UMC-6855,UMC-6855 Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 1152mm",116486.75,76513.8,23536.9,21,True,2026-03-01 20:26:44
+44,1,5AX-4471,5AX-4471 Machining Center (3-axis),"High-precision 3-axis machining center, table 604mm",416353.02,243975.67,26203.4,23,True,2026-03-01 20:26:44
+45,1,EC-5828,EC-5828 Machining Center (4-axis),"High-precision 4-axis machining center, table 736mm",446306.45,291094.83,6920.8,14,True,2026-03-01 20:26:44
+46,1,VF-1237-XL,VF-1237-XL Machining Center (3-axis),"High-precision 3-axis machining center, table 518mm",143563.63,90772.5,12170.4,18,True,2026-03-01 20:26:44
+47,1,VF-3025-B,VF-3025-B Machining Center (4-axis),"High-precision 4-axis machining center, table 1146mm",600933.2,360345.07,3519.6,21,True,2026-03-01 20:26:44
+48,1,MX-7249-B,MX-7249-B Machining Center (4-axis),"High-precision 4-axis machining center, table 445mm",628884.32,368927.47,27015.3,14,True,2026-03-01 20:26:44
+49,1,DM-127-B,DM-127-B Machining Center (4-axis),"High-precision 4-axis machining center, table 841mm",556160.2,346675.58,21667.1,14,True,2026-03-01 20:26:44
+50,1,HMC-5509-B,HMC-5509-B Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 716mm",154417.95,100403.74,21676.7,17,True,2026-03-01 20:26:44
+51,1,DM-5444-A,DM-5444-A Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 1166mm",344688.26,215334.68,5997.7,20,True,2026-03-01 20:26:44
+52,1,UMC-9424,UMC-9424 Machining Center (4-axis),"High-precision 4-axis machining center, table 993mm",187303.83,121554.07,9325.1,14,True,2026-03-01 20:26:44
+53,1,MX-7718-A,MX-7718-A Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 486mm",202012.06,120227.33,14353.6,13,True,2026-03-01 20:26:44
+54,1,VF-8545-HD,VF-8545-HD Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 717mm",301268.95,182476.9,24607.2,15,True,2026-03-01 20:26:44
+55,1,5AX-3362,5AX-3362 Machining Center (4-axis),"High-precision 4-axis machining center, table 824mm",84200.13,50339.24,14411.5,10,True,2026-03-01 20:26:44
+56,1,5AX-6391-A,5AX-6391-A Machining Center (4-axis),"High-precision 4-axis machining center, table 624mm",184800.65,108923.2,20722.4,11,True,2026-03-01 20:26:44
+57,1,UMC-8586-A,UMC-8586-A Machining Center (3-axis),"High-precision 3-axis machining center, table 875mm",88875.05,53167.76,25495.6,22,True,2026-03-01 20:26:44
+58,1,MX-7351-B,MX-7351-B Machining Center (3-axis),"High-precision 3-axis machining center, table 1161mm",441165.92,288534.58,12974.2,22,True,2026-03-01 20:26:44
+59,1,EC-7473,EC-7473 Machining Center (4-axis),"High-precision 4-axis machining center, table 1041mm",386432.88,250988.19,8536.1,24,True,2026-03-01 20:26:44
+60,1,5AX-4599-A,5AX-4599-A Machining Center (5-axis simultaneous),"High-precision 5-axis simultaneous machining center, table 482mm",94099.25,56591.4,8369.9,18,True,2026-03-01 20:26:44
+61,2,MT-2571,MT-2571 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 73mm",88710.56,54015.09,6654.4,21,True,2026-03-01 20:26:44
+62,2,NL-6912,NL-6912 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 76mm",61496.45,38917.71,27173.7,8,True,2026-03-01 20:26:44
+63,2,NL-196,NL-196 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 99mm",74427.61,46900.02,26781.8,21,True,2026-03-01 20:26:44
+64,2,SW-8099,SW-8099 CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 81mm",70557.82,45066.23,11849.1,20,True,2026-03-01 20:26:44
+65,2,MT-8851,MT-8851 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 60mm",263692.86,170934.57,19991.1,10,True,2026-03-01 20:26:44
+66,2,NL-3077,NL-3077 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 69mm",68707.56,42909.99,13804.6,18,True,2026-03-01 20:26:44
+67,2,GT-4233-XL,GT-4233-XL CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 93mm",47427.33,28311.12,16320.7,19,True,2026-03-01 20:26:44
+68,2,ST-759-XL,ST-759-XL CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 60mm",42666.09,26340.19,25225.1,12,True,2026-03-01 20:26:44
+69,2,NL-1974-B,NL-1974-B CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 90mm",287058.14,182817.87,7910.4,19,True,2026-03-01 20:26:44
+70,2,ST-2783,ST-2783 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 97mm",50082.14,29924.12,9565.1,20,True,2026-03-01 20:26:44
+71,2,SW-1345-B,SW-1345-B CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 59mm",168169.39,109545.7,3326.5,17,True,2026-03-01 20:26:44
+72,2,LT-5788-B,LT-5788-B CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 78mm",97481.88,61257.92,15327.0,18,True,2026-03-01 20:26:44
+73,2,NL-1829-A,NL-1829-A CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 63mm",294942.68,192346.4,24912.6,12,True,2026-03-01 20:26:44
+74,2,QL-8917-XL,QL-8917-XL CNC Turning Center,"CNC turning center, max swing 500mm, bar capacity 67mm",109320.53,69334.08,22011.5,16,True,2026-03-01 20:26:44
+75,2,ST-4669-A,ST-4669-A CNC Turning Center,"CNC turning center, max swing 500mm, bar capacity 53mm",66418.74,42297.97,18426.9,20,True,2026-03-01 20:26:44
+76,2,NL-5425,NL-5425 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 96mm",110245.65,69123.18,7973.1,16,True,2026-03-01 20:26:44
+77,2,QL-9206,QL-9206 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 87mm",117117.26,71713.08,7468.3,21,True,2026-03-01 20:26:44
+78,2,SW-7900-HD,SW-7900-HD CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 77mm",175759.07,111669.66,812.1,17,True,2026-03-01 20:26:44
+79,2,SW-5116-HD,SW-5116-HD CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 73mm",134046.97,85468.9,16068.4,21,True,2026-03-01 20:26:44
+80,2,CL-7534,CL-7534 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 99mm",75677.74,46606.61,21722.1,18,True,2026-03-01 20:26:44
+81,2,MT-3238,MT-3238 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 70mm",185817.43,115202.04,17810.7,24,True,2026-03-01 20:26:44
+82,2,ST-3280,ST-3280 CNC Turning Center,"CNC turning center, max swing 500mm, bar capacity 54mm",64194.49,39240.68,720.2,12,True,2026-03-01 20:26:44
+83,2,LT-9166,LT-9166 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 52mm",170565.29,103450.35,26093.3,23,True,2026-03-01 20:26:44
+84,2,QL-7790-A,QL-7790-A CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 56mm",99963.85,61149.78,1825.9,23,True,2026-03-01 20:26:44
+85,2,GT-8156,GT-8156 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 67mm",132788.98,87203.32,4806.3,17,True,2026-03-01 20:26:44
+86,2,ST-9243-XL,ST-9243-XL CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 80mm",95039.16,61643.63,18667.0,24,True,2026-03-01 20:26:44
+87,2,NL-4971-XL,NL-4971-XL CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 99mm",136003.83,86175.18,17188.3,9,True,2026-03-01 20:26:44
+88,2,ST-3504-HD,ST-3504-HD CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 56mm",62034.71,40593.92,4964.6,13,True,2026-03-01 20:26:44
+89,2,MT-143-A,MT-143-A CNC Turning Center,"CNC turning center, max swing 500mm, bar capacity 97mm",102071.71,66183.86,8950.4,15,True,2026-03-01 20:26:44
+90,2,QL-7538,QL-7538 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 59mm",167043.83,113252.78,23698.5,14,True,2026-03-01 20:26:44
+91,2,SW-2541,SW-2541 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 99mm",223142.51,134242.16,5227.9,17,True,2026-03-01 20:26:44
+92,2,QL-7295,QL-7295 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 86mm",106007.46,65983.98,12254.5,16,True,2026-03-01 20:26:44
+93,2,NL-7272,NL-7272 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 57mm",138720.59,93621.46,22115.7,16,True,2026-03-01 20:26:44
+94,2,SW-9524-B,SW-9524-B CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 54mm",288872.07,197808.53,20266.8,16,True,2026-03-01 20:26:44
+95,2,MT-7808-B,MT-7808-B CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 57mm",155035.69,105002.59,5690.2,21,True,2026-03-01 20:26:44
+96,2,NL-5800-A,NL-5800-A CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 96mm",79995.85,52416.8,25774.7,18,True,2026-03-01 20:26:44
+97,2,NL-4822-HD,NL-4822-HD CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 72mm",285532.02,190762.66,16637.9,22,True,2026-03-01 20:26:44
+98,2,QL-5396,QL-5396 CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 81mm",300762.79,189905.86,15583.5,8,True,2026-03-01 20:26:44
+99,2,GT-988,GT-988 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 65mm",117559.41,76529.76,15105.2,22,True,2026-03-01 20:26:44
+100,2,QL-9098,QL-9098 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 92mm",275316.33,174675.88,21038.0,11,True,2026-03-01 20:26:44
+101,2,SW-2694,SW-2694 CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 59mm",125752.66,81070.44,3068.3,11,True,2026-03-01 20:26:44
+102,2,MT-8265-HD,MT-8265-HD CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 67mm",73390.06,48320.37,12640.1,23,True,2026-03-01 20:26:44
+103,2,NL-9131,NL-9131 CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 69mm",88812.21,60196.86,15394.8,12,True,2026-03-01 20:26:44
+104,2,GT-5668-XL,GT-5668-XL CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 89mm",114972.19,76884.34,8700.3,17,True,2026-03-01 20:26:44
+105,2,NL-2534-A,NL-2534-A CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 72mm",122587.65,76754.96,16691.9,20,True,2026-03-01 20:26:44
+106,2,SW-4012-B,SW-4012-B CNC Turning Center,"CNC turning center, max swing 600mm, bar capacity 97mm",88698.67,59596.53,12500.0,18,True,2026-03-01 20:26:44
+107,2,GT-6425-HD,GT-6425-HD CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 84mm",207808.24,135827.81,4817.5,9,True,2026-03-01 20:26:44
+108,2,CL-1744-XL,CL-1744-XL CNC Turning Center,"CNC turning center, max swing 400mm, bar capacity 78mm",231849.75,140068.36,27340.1,8,True,2026-03-01 20:26:44
+109,2,MT-1325-A,MT-1325-A CNC Turning Center,"CNC turning center, max swing 300mm, bar capacity 73mm",203164.42,125747.81,18810.8,20,True,2026-03-01 20:26:44
+110,2,GT-5288-HD,GT-5288-HD CNC Turning Center,"CNC turning center, max swing 800mm, bar capacity 56mm",178289.8,118249.36,26209.8,9,True,2026-03-01 20:26:44
+111,3,AP-4808,AP-4808 Sinker EDM,"Sinker EDM, work tank 485x655mm",185427.3,110227.93,3223.8,11,True,2026-03-01 20:26:44
+112,3,HS-574,HS-574 Wire EDM,"Wire EDM, work tank 525x571mm",93245.78,52470.71,10946.4,21,True,2026-03-01 20:26:44
+113,3,FW-9372-HD,FW-9372-HD Wire EDM,"Wire EDM, work tank 654x598mm",199761.49,114319.23,2645.4,20,True,2026-03-01 20:26:44
+114,3,AP-3904-A,AP-3904-A Sinker EDM,"Sinker EDM, work tank 746x579mm",155321.19,92665.23,20105.2,22,True,2026-03-01 20:26:44
+115,3,AP-1310-A,AP-1310-A Sinker EDM,"Sinker EDM, work tank 633x454mm",256124.33,164166.15,9184.9,21,True,2026-03-01 20:26:44
+116,3,AP-6402-XL,AP-6402-XL Sinker EDM,"Sinker EDM, work tank 411x637mm",120751.32,69785.24,17286.1,17,True,2026-03-01 20:26:44
+117,3,FW-4597,FW-4597 Sinker EDM,"Sinker EDM, work tank 826x446mm",138152.48,85047.66,22416.7,9,True,2026-03-01 20:26:44
+118,3,ZH-3870-B,ZH-3870-B Wire EDM,"Wire EDM, work tank 721x349mm",202845.07,116919.16,5946.9,16,True,2026-03-01 20:26:44
+119,3,AC-745,AC-745 Wire EDM,"Wire EDM, work tank 865x451mm",198494.7,111316.35,11136.4,12,True,2026-03-01 20:26:44
+120,3,HS-6907,HS-6907 Sinker EDM,"Sinker EDM, work tank 825x384mm",76257.67,47589.9,26330.9,19,True,2026-03-01 20:26:44
+121,3,HS-7994-XL,HS-7994-XL Wire EDM,"Wire EDM, work tank 472x686mm",88913.41,56114.44,24185.7,22,True,2026-03-01 20:26:44
+122,3,AP-6611-XL,AP-6611-XL Sinker EDM,"Sinker EDM, work tank 674x363mm",203723.67,119937.24,23783.3,8,True,2026-03-01 20:26:44
+123,3,FW-6138-HD,FW-6138-HD Wire EDM,"Wire EDM, work tank 745x419mm",186106.1,107945.55,11616.5,19,True,2026-03-01 20:26:44
+124,3,FW-510-B,FW-510-B Wire EDM,"Wire EDM, work tank 725x537mm",231918.7,140347.51,27483.1,15,True,2026-03-01 20:26:44
+125,3,AC-5051-HD,AC-5051-HD Sinker EDM,"Sinker EDM, work tank 459x349mm",106891.78,60900.66,28404.0,17,True,2026-03-01 20:26:44
+126,3,AP-8907,AP-8907 Wire EDM,"Wire EDM, work tank 853x512mm",103527.51,60994.78,28496.6,21,True,2026-03-01 20:26:44
+127,3,AC-1722-XL,AC-1722-XL Sinker EDM,"Sinker EDM, work tank 511x527mm",121963.79,72236.93,28560.2,9,True,2026-03-01 20:26:44
+128,3,FW-3968-XL,FW-3968-XL Wire EDM,"Wire EDM, work tank 603x441mm",99244.74,63556.13,11209.8,19,True,2026-03-01 20:26:44
+129,3,AP-2101-XL,AP-2101-XL Wire EDM,"Wire EDM, work tank 802x470mm",210328.01,118982.67,6599.5,8,True,2026-03-01 20:26:44
+130,3,AP-2163-XL,AP-2163-XL Wire EDM,"Wire EDM, work tank 816x419mm",137849.05,77714.23,23025.2,14,True,2026-03-01 20:26:44
+131,3,HS-2517-XL,HS-2517-XL Wire EDM,"Wire EDM, work tank 676x428mm",238151.78,132945.42,25794.7,12,True,2026-03-01 20:26:44
+132,3,ZH-2958,ZH-2958 Sinker EDM,"Sinker EDM, work tank 408x389mm",161285.44,90346.54,741.4,15,True,2026-03-01 20:26:44
+133,3,HS-958,HS-958 Sinker EDM,"Sinker EDM, work tank 798x485mm",183910.09,110749.03,22446.3,23,True,2026-03-01 20:26:44
+134,3,SP-9826,SP-9826 Sinker EDM,"Sinker EDM, work tank 634x629mm",114772.55,66179.02,18568.7,24,True,2026-03-01 20:26:44
+135,3,WC-1096-A,WC-1096-A Wire EDM,"Wire EDM, work tank 860x341mm",218388.29,129680.49,3506.5,22,True,2026-03-01 20:26:44
+136,3,HS-2530,HS-2530 Sinker EDM,"Sinker EDM, work tank 705x571mm",67538.95,41228.66,17685.3,18,True,2026-03-01 20:26:44
+137,3,HS-7533-B,HS-7533-B Sinker EDM,"Sinker EDM, work tank 631x416mm",147324.69,83434.54,21142.8,14,True,2026-03-01 20:26:44
+138,3,FW-5653-XL,FW-5653-XL Sinker EDM,"Sinker EDM, work tank 740x430mm",115051.85,68219.2,3124.0,21,True,2026-03-01 20:26:44
+139,3,HS-2600-HD,HS-2600-HD Sinker EDM,"Sinker EDM, work tank 449x681mm",247015.5,139227.62,25003.6,10,True,2026-03-01 20:26:44
+140,3,AC-6205-XL,AC-6205-XL Wire EDM,"Wire EDM, work tank 610x481mm",67971.63,38270.64,28711.8,18,True,2026-03-01 20:26:44
+141,4,SGA-7029-XL,SGA-7029-XL Cylindrical Grinder,"Cylindrical grinding machine, table 406mm",170487.62,103857.92,8842.6,17,True,2026-03-01 20:26:44
+142,4,IG-8413,IG-8413 Centerless Grinder,"Centerless grinding machine, table 676mm",40235.07,26087.58,25464.1,19,True,2026-03-01 20:26:44
+143,4,SG-4664-B,SG-4664-B Centerless Grinder,"Centerless grinding machine, table 573mm",46073.98,29650.87,16960.7,8,True,2026-03-01 20:26:44
+144,4,SG-3055,SG-3055 Surface Grinder,"Surface grinding machine, table 446mm",113783.93,71981.72,10392.8,8,True,2026-03-01 20:26:44
+145,4,IG-6666,IG-6666 Surface Grinder,"Surface grinding machine, table 685mm",39265.67,25998.53,1210.5,24,True,2026-03-01 20:26:44
+146,4,RG-7532,RG-7532 Surface Grinder,"Surface grinding machine, table 459mm",40440.09,25592.87,9934.2,10,True,2026-03-01 20:26:44
+147,4,CG-915-HD,CG-915-HD Cylindrical Grinder,"Cylindrical grinding machine, table 579mm",35021.68,22582.79,12893.2,22,True,2026-03-01 20:26:44
+148,4,CG-8494,CG-8494 Centerless Grinder,"Centerless grinding machine, table 615mm",57744.71,35489.38,20443.1,23,True,2026-03-01 20:26:44
+149,4,SG-3712-A,SG-3712-A Surface Grinder,"Surface grinding machine, table 561mm",194184.53,118352.59,6371.4,14,True,2026-03-01 20:26:44
+150,4,CL-5475,CL-5475 Centerless Grinder,"Centerless grinding machine, table 535mm",30443.18,20472.38,5518.1,20,True,2026-03-01 20:26:44
+151,4,IG-9254-XL,IG-9254-XL Cylindrical Grinder,"Cylindrical grinding machine, table 319mm",106544.73,67840.14,12093.0,9,True,2026-03-01 20:26:44
+152,4,RG-1375-XL,RG-1375-XL Cylindrical Grinder,"Cylindrical grinding machine, table 417mm",54331.87,34966.08,12311.4,21,True,2026-03-01 20:26:44
+153,4,RG-441,RG-441 Surface Grinder,"Surface grinding machine, table 747mm",41565.12,28710.4,13964.9,19,True,2026-03-01 20:26:44
+154,4,SGA-1834,SGA-1834 Centerless Grinder,"Centerless grinding machine, table 647mm",68561.29,43943.74,2635.8,17,True,2026-03-01 20:26:44
+155,4,CG-5556-XL,CG-5556-XL Surface Grinder,"Surface grinding machine, table 657mm",41271.22,26865.66,3686.6,24,True,2026-03-01 20:26:44
+156,4,CL-2519,CL-2519 Centerless Grinder,"Centerless grinding machine, table 377mm",36460.52,22889.66,5452.9,12,True,2026-03-01 20:26:44
+157,4,CG-8195-A,CG-8195-A Centerless Grinder,"Centerless grinding machine, table 623mm",125520.82,84556.95,13632.5,18,True,2026-03-01 20:26:44
+158,4,CG-7305,CG-7305 Cylindrical Grinder,"Cylindrical grinding machine, table 819mm",73024.64,48339.1,23951.0,9,True,2026-03-01 20:26:44
+159,4,SG-5185-A,SG-5185-A Centerless Grinder,"Centerless grinding machine, table 392mm",70706.13,43107.9,25001.4,10,True,2026-03-01 20:26:44
+160,4,IG-9833-B,IG-9833-B Cylindrical Grinder,"Cylindrical grinding machine, table 885mm",62215.66,40894.97,28640.7,9,True,2026-03-01 20:26:44
+161,4,BG-3184,BG-3184 Surface Grinder,"Surface grinding machine, table 651mm",94534.61,61459.26,28744.4,22,True,2026-03-01 20:26:44
+162,4,BG-1481-B,BG-1481-B Centerless Grinder,"Centerless grinding machine, table 835mm",102204.73,62146.81,21316.4,22,True,2026-03-01 20:26:44
+163,4,IG-2700,IG-2700 Centerless Grinder,"Centerless grinding machine, table 353mm",60857.94,38355.31,12440.5,18,True,2026-03-01 20:26:44
+164,4,SGA-5582,SGA-5582 Centerless Grinder,"Centerless grinding machine, table 453mm",56073.33,36743.43,11781.0,16,True,2026-03-01 20:26:44
+165,4,CL-1435-B,CL-1435-B Surface Grinder,"Surface grinding machine, table 386mm",105651.84,72680.43,9513.9,20,True,2026-03-01 20:26:44
+166,4,CL-9257-A,CL-9257-A Surface Grinder,"Surface grinding machine, table 733mm",101695.32,64514.63,4095.5,24,True,2026-03-01 20:26:44
+167,4,IG-6028,IG-6028 Surface Grinder,"Surface grinding machine, table 531mm",59685.47,37058.94,6661.5,23,True,2026-03-01 20:26:44
+168,4,CG-2638,CG-2638 Surface Grinder,"Surface grinding machine, table 644mm",52580.77,35556.11,15378.4,24,True,2026-03-01 20:26:44
+169,4,SGA-2247-B,SGA-2247-B Centerless Grinder,"Centerless grinding machine, table 748mm",61306.15,37964.72,24990.9,13,True,2026-03-01 20:26:44
+170,4,SG-6831,SG-6831 Centerless Grinder,"Centerless grinding machine, table 759mm",108238.7,67769.9,13492.7,17,True,2026-03-01 20:26:44
+171,4,CG-8849,CG-8849 Cylindrical Grinder,"Cylindrical grinding machine, table 884mm",53962.81,36591.36,14229.8,14,True,2026-03-01 20:26:44
+172,4,RG-7664-XL,RG-7664-XL Surface Grinder,"Surface grinding machine, table 441mm",51200.65,32730.04,15965.6,13,True,2026-03-01 20:26:44
+173,4,SGA-4196,SGA-4196 Centerless Grinder,"Centerless grinding machine, table 828mm",101249.82,69259.4,16769.9,11,True,2026-03-01 20:26:44
+174,4,SGA-2142,SGA-2142 Surface Grinder,"Surface grinding machine, table 747mm",35174.4,21776.06,13644.8,24,True,2026-03-01 20:26:44
+175,4,SG-3737-XL,SG-3737-XL Cylindrical Grinder,"Cylindrical grinding machine, table 814mm",70600.79,44924.15,1092.1,9,True,2026-03-01 20:26:44
+176,4,CL-3962-A,CL-3962-A Centerless Grinder,"Centerless grinding machine, table 643mm",197933.54,126403.73,1137.2,11,True,2026-03-01 20:26:44
+177,4,SGA-2492,SGA-2492 Centerless Grinder,"Centerless grinding machine, table 780mm",32261.13,22195.11,14331.9,12,True,2026-03-01 20:26:44
+178,4,RG-186,RG-186 Cylindrical Grinder,"Cylindrical grinding machine, table 413mm",31101.31,19411.09,4740.7,24,True,2026-03-01 20:26:44
+179,4,SGA-4820,SGA-4820 Surface Grinder,"Surface grinding machine, table 413mm",53118.08,32340.69,12768.8,22,True,2026-03-01 20:26:44
+180,4,SGA-8289-B,SGA-8289-B Cylindrical Grinder,"Cylindrical grinding machine, table 739mm",82943.17,54909.03,17378.9,12,True,2026-03-01 20:26:44
+181,5,CNMG-5880,CNMG-5880 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",32.84,14.13,33.43,5,True,2026-03-01 20:26:44
+182,5,APMT-8718-B,APMT-8718-B Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",28.07,13.5,27.73,4,True,2026-03-01 20:26:44
+183,5,CNMG-6438,CNMG-6438 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",14.99,6.29,39.44,3,True,2026-03-01 20:26:44
+184,5,APMT-9633-HD,APMT-9633-HD Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",52.03,22.21,17.65,3,True,2026-03-01 20:26:44
+185,5,CCMT-7940-HD,CCMT-7940-HD Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",12.56,5.36,35.82,4,True,2026-03-01 20:26:44
+186,5,DNMG-3402,DNMG-3402 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",56.66,26.87,15.81,3,True,2026-03-01 20:26:44
+187,5,DCMT-7856,DCMT-7856 Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",8.76,4.02,14.34,7,True,2026-03-01 20:26:44
+188,5,WNMG-4576,WNMG-4576 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",57.82,25.79,20.03,4,True,2026-03-01 20:26:44
+189,5,WNMG-3160-A,WNMG-3160-A Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",44.34,19.58,39.87,3,True,2026-03-01 20:26:44
+190,5,SNMG-1393-A,SNMG-1393-A Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",35.52,16.71,27.3,3,True,2026-03-01 20:26:44
+191,5,APMT-5472-HD,APMT-5472-HD Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",16.63,7.43,35.9,2,True,2026-03-01 20:26:44
+192,5,WNMG-7425,WNMG-7425 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",48.32,23.0,30.76,4,True,2026-03-01 20:26:44
+193,5,CNMG-1329-HD,CNMG-1329-HD Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",38.74,17.1,40.06,6,True,2026-03-01 20:26:44
+194,5,CNMG-2439-XL,CNMG-2439-XL Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",35.98,16.83,1.79,1,True,2026-03-01 20:26:44
+195,5,WNMG-6033-A,WNMG-6033-A Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",83.83,35.25,7.71,4,True,2026-03-01 20:26:44
+196,5,WNMG-7373-XL,WNMG-7373-XL Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",9.68,4.14,18.38,3,True,2026-03-01 20:26:44
+197,5,TCMT-1958,TCMT-1958 Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",49.39,22.22,19.38,5,True,2026-03-01 20:26:44
+198,5,DNMG-4364-HD,DNMG-4364-HD Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",24.14,11.62,14.31,4,True,2026-03-01 20:26:44
+199,5,APMT-2323-XL,APMT-2323-XL Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",9.61,4.13,35.68,1,True,2026-03-01 20:26:44
+200,5,WNMG-1163-B,WNMG-1163-B Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",30.6,14.52,42.58,6,True,2026-03-01 20:26:44
+201,5,WNMG-8435,WNMG-8435 Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",10.8,4.66,6.99,7,True,2026-03-01 20:26:44
+202,5,CNMG-6012-B,CNMG-6012-B Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",32.97,14.77,49.15,2,True,2026-03-01 20:26:44
+203,5,APMT-5167-A,APMT-5167-A Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",94.9,44.01,26.31,7,True,2026-03-01 20:26:44
+204,5,RCMT-1308,RCMT-1308 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",88.72,40.72,22.53,6,True,2026-03-01 20:26:44
+205,5,VCMT-9132-HD,VCMT-9132-HD Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",34.26,15.99,6.5,5,True,2026-03-01 20:26:44
+206,5,APMT-8588,APMT-8588 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",16.98,7.28,46.74,2,True,2026-03-01 20:26:44
+207,5,DCMT-4753-XL,DCMT-4753-XL Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",9.72,4.19,47.82,3,True,2026-03-01 20:26:44
+208,5,DNMG-8840,DNMG-8840 Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",27.74,11.9,47.08,2,True,2026-03-01 20:26:44
+209,5,RCMT-5631-XL,RCMT-5631-XL Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",78.7,33.14,43.2,1,True,2026-03-01 20:26:44
+210,5,RCMT-4436-HD,RCMT-4436-HD Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",13.48,6.13,30.92,1,True,2026-03-01 20:26:44
+211,5,DCMT-4845-HD,DCMT-4845-HD Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",85.34,38.31,40.24,6,True,2026-03-01 20:26:44
+212,5,DNMG-7530,DNMG-7530 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",43.96,18.84,20.81,4,True,2026-03-01 20:26:44
+213,5,WNMG-2453,WNMG-2453 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",67.43,29.58,49.4,3,True,2026-03-01 20:26:44
+214,5,VCMT-6170-B,VCMT-6170-B Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",32.11,14.08,23.35,3,True,2026-03-01 20:26:44
+215,5,TCMT-2408,TCMT-2408 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",9.07,4.34,43.21,4,True,2026-03-01 20:26:44
+216,5,VCMT-5464-B,VCMT-5464-B Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",47.65,20.51,8.01,5,True,2026-03-01 20:26:44
+217,5,CCMT-5155-A,CCMT-5155-A Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",8.47,4.05,25.3,2,True,2026-03-01 20:26:44
+218,5,RCMT-5881,RCMT-5881 Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",9.07,4.08,44.12,6,True,2026-03-01 20:26:44
+219,5,DNMG-8893,DNMG-8893 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",65.09,29.01,44.13,6,True,2026-03-01 20:26:44
+220,5,SNMG-6095,SNMG-6095 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",21.56,9.8,9.77,5,True,2026-03-01 20:26:44
+221,5,APMT-6429-B,APMT-6429-B Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",24.38,11.05,41.27,5,True,2026-03-01 20:26:44
+222,5,VCMT-1684-A,VCMT-1684-A Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",20.14,9.68,27.91,3,True,2026-03-01 20:26:44
+223,5,TCMT-9970-B,TCMT-9970-B Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",21.6,9.09,1.99,6,True,2026-03-01 20:26:44
+224,5,CCMT-8608-A,CCMT-8608-A Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",11.57,5.49,7.03,5,True,2026-03-01 20:26:44
+225,5,VCMT-6538-B,VCMT-6538-B Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",49.84,21.8,16.85,7,True,2026-03-01 20:26:44
+226,5,RCMT-5011-A,RCMT-5011-A Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",60.22,26.6,33.71,4,True,2026-03-01 20:26:44
+227,5,CNMG-9879-A,CNMG-9879-A Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",15.43,7.09,48.6,5,True,2026-03-01 20:26:44
+228,5,CNMG-9660-A,CNMG-9660-A Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",12.2,5.59,31.01,7,True,2026-03-01 20:26:44
+229,5,VCMT-4068,VCMT-4068 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",32.99,15.26,9.58,4,True,2026-03-01 20:26:44
+230,5,SNMG-2581-A,SNMG-2581-A Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",44.17,19.63,38.76,4,True,2026-03-01 20:26:44
+231,5,VCMT-8598,VCMT-8598 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",32.05,15.43,23.94,4,True,2026-03-01 20:26:44
+232,5,VCMT-7631-B,VCMT-7631-B Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",18.66,8.23,38.61,6,True,2026-03-01 20:26:44
+233,5,RCMT-8032,RCMT-8032 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",85.48,37.28,14.96,3,True,2026-03-01 20:26:44
+234,5,TCMT-8111,TCMT-8111 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",26.22,11.9,46.73,6,True,2026-03-01 20:26:44
+235,5,DNMG-2096-B,DNMG-2096-B Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",42.68,18.88,49.01,7,True,2026-03-01 20:26:44
+236,5,VCMT-4858,VCMT-4858 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",16.3,7.55,17.35,4,True,2026-03-01 20:26:44
+237,5,CCMT-3605,CCMT-3605 Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",62.06,27.03,28.12,3,True,2026-03-01 20:26:44
+238,5,APMT-9714,APMT-9714 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",14.58,6.72,26.58,6,True,2026-03-01 20:26:44
+239,5,CNMG-1741-A,CNMG-1741-A Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",18.11,8.12,34.08,2,True,2026-03-01 20:26:44
+240,5,DCMT-2687-A,DCMT-2687-A Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",40.24,19.07,23.81,6,True,2026-03-01 20:26:44
+241,5,DNMG-5362,DNMG-5362 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",39.55,18.81,4.52,5,True,2026-03-01 20:26:44
+242,5,DCMT-711,DCMT-711 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",22.5,10.6,46.7,1,True,2026-03-01 20:26:44
+243,5,CCMT-3152-HD,CCMT-3152-HD Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",86.5,41.25,43.84,1,True,2026-03-01 20:26:44
+244,5,RCMT-9975,RCMT-9975 Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",79.59,34.99,22.74,6,True,2026-03-01 20:26:44
+245,5,VCMT-8361-A,VCMT-8361-A Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",15.71,7.38,16.57,6,True,2026-03-01 20:26:44
+246,5,DNMG-3150,DNMG-3150 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",49.51,23.19,28.41,7,True,2026-03-01 20:26:44
+247,5,VCMT-6743-XL,VCMT-6743-XL Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",23.05,10.12,20.07,1,True,2026-03-01 20:26:44
+248,5,VCMT-7922,VCMT-7922 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",81.05,33.95,19.21,4,True,2026-03-01 20:26:44
+249,5,WNMG-5047-B,WNMG-5047-B Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",47.85,20.06,32.7,6,True,2026-03-01 20:26:44
+250,5,CNMG-2036-A,CNMG-2036-A Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",17.09,7.59,25.15,6,True,2026-03-01 20:26:44
+251,5,APMT-4933,APMT-4933 Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",36.61,15.83,6.72,2,True,2026-03-01 20:26:44
+252,5,RCMT-6221-A,RCMT-6221-A Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",45.44,21.63,37.88,7,True,2026-03-01 20:26:44
+253,5,TCMT-9861-XL,TCMT-9861-XL Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",56.13,25.35,26.43,3,True,2026-03-01 20:26:44
+254,5,RCMT-1938,RCMT-1938 Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",62.19,29.56,10.15,5,True,2026-03-01 20:26:44
+255,5,VCMT-5475-XL,VCMT-5475-XL Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",28.99,12.34,10.31,5,True,2026-03-01 20:26:44
+256,5,APMT-8461-A,APMT-8461-A Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",59.17,26.45,25.69,4,True,2026-03-01 20:26:44
+257,5,DCMT-7675-HD,DCMT-7675-HD Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",58.92,27.34,19.83,7,True,2026-03-01 20:26:44
+258,5,TCMT-9575,TCMT-9575 Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",8.95,3.94,3.23,1,True,2026-03-01 20:26:44
+259,5,CCMT-619,CCMT-619 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",22.0,10.27,38.3,6,True,2026-03-01 20:26:44
+260,5,WNMG-6366-A,WNMG-6366-A Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",68.8,32.72,18.81,6,True,2026-03-01 20:26:44
+261,5,WNMG-2043,WNMG-2043 Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",93.33,41.37,6.41,2,True,2026-03-01 20:26:44
+262,5,CNMG-4988-A,CNMG-4988-A Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",42.35,19.18,26.62,7,True,2026-03-01 20:26:44
+263,5,TCMT-7646,TCMT-7646 Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",11.74,5.05,43.77,7,True,2026-03-01 20:26:44
+264,5,CNMG-6968-B,CNMG-6968-B Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",53.25,25.25,0.83,2,True,2026-03-01 20:26:44
+265,5,APMT-9831,APMT-9831 Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",24.15,11.13,43.62,2,True,2026-03-01 20:26:44
+266,5,SNMG-7291,SNMG-7291 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",30.42,14.18,38.81,2,True,2026-03-01 20:26:44
+267,5,TCMT-9538,TCMT-9538 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",33.39,15.6,40.93,2,True,2026-03-01 20:26:44
+268,5,VCMT-8640,VCMT-8640 Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",22.26,9.7,27.86,5,True,2026-03-01 20:26:44
+269,5,SNMG-9207-A,SNMG-9207-A Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",8.98,3.95,32.18,4,True,2026-03-01 20:26:44
+270,5,SNMG-6788,SNMG-6788 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",16.8,7.23,26.92,2,True,2026-03-01 20:26:44
+271,5,DNMG-2465-XL,DNMG-2465-XL Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",25.16,10.62,20.66,4,True,2026-03-01 20:26:44
+272,5,SNMG-4078,SNMG-4078 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",13.23,6.08,46.12,7,True,2026-03-01 20:26:44
+273,5,APMT-8875-HD,APMT-8875-HD Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",62.29,26.27,18.89,5,True,2026-03-01 20:26:44
+274,5,APMT-3182-XL,APMT-3182-XL Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",52.68,24.45,27.96,4,True,2026-03-01 20:26:44
+275,5,WNMG-5067,WNMG-5067 Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",13.51,5.82,37.09,6,True,2026-03-01 20:26:44
+276,5,TCMT-3450-A,TCMT-3450-A Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",77.0,34.9,38.79,4,True,2026-03-01 20:26:44
+277,5,DCMT-5986,DCMT-5986 Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",15.28,6.89,24.89,1,True,2026-03-01 20:26:44
+278,5,WNMG-3428,WNMG-3428 Carbide Insert Grade K20 (Pkg/10),"Indexable carbide turning/milling insert, grade K20",17.35,7.31,43.21,6,True,2026-03-01 20:26:44
+279,5,CNMG-4372-B,CNMG-4372-B Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",80.84,36.78,20.91,2,True,2026-03-01 20:26:44
+280,5,WNMG-3868-A,WNMG-3868-A Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",32.76,14.22,27.55,6,True,2026-03-01 20:26:44
+281,5,DNMG-8105-HD,DNMG-8105-HD Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",39.15,17.59,8.45,7,True,2026-03-01 20:26:44
+282,5,VCMT-2393-HD,VCMT-2393-HD Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",30.93,13.3,44.47,6,True,2026-03-01 20:26:44
+283,5,DCMT-654-XL,DCMT-654-XL Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",65.01,31.08,33.43,7,True,2026-03-01 20:26:44
+284,5,SNMG-2352-XL,SNMG-2352-XL Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",38.09,16.1,7.59,2,True,2026-03-01 20:26:44
+285,5,WNMG-1090-B,WNMG-1090-B Carbide Insert Grade M35 (Pkg/10),"Indexable carbide turning/milling insert, grade M35",38.76,18.5,45.64,6,True,2026-03-01 20:26:44
+286,5,CNMG-208-B,CNMG-208-B Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",31.33,13.13,26.49,3,True,2026-03-01 20:26:44
+287,5,CNMG-8328-XL,CNMG-8328-XL Carbide Insert Grade M25 (Pkg/10),"Indexable carbide turning/milling insert, grade M25",44.98,20.04,46.99,2,True,2026-03-01 20:26:44
+288,5,APMT-8691,APMT-8691 Carbide Insert Grade H10 (Pkg/10),"Indexable carbide turning/milling insert, grade H10",14.52,6.64,12.66,3,True,2026-03-01 20:26:44
+289,5,SNMG-1394,SNMG-1394 Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",85.9,38.43,12.2,6,True,2026-03-01 20:26:44
+290,5,DNMG-1420-HD,DNMG-1420-HD Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",93.06,42.76,1.63,4,True,2026-03-01 20:26:44
+291,5,SNMG-9155-A,SNMG-9155-A Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",9.19,3.85,8.61,4,True,2026-03-01 20:26:44
+292,5,WNMG-9370-XL,WNMG-9370-XL Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",89.05,42.29,45.96,2,True,2026-03-01 20:26:44
+293,5,RCMT-7890,RCMT-7890 Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",8.98,3.8,46.28,5,True,2026-03-01 20:26:44
+294,5,VCMT-5252,VCMT-5252 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",86.36,39.34,37.63,6,True,2026-03-01 20:26:44
+295,5,APMT-5003,APMT-5003 Carbide Insert Grade P15 (Pkg/10),"Indexable carbide turning/milling insert, grade P15",32.3,14.67,42.48,6,True,2026-03-01 20:26:44
+296,5,SNMG-2392-XL,SNMG-2392-XL Carbide Insert Grade P25 (Pkg/10),"Indexable carbide turning/milling insert, grade P25",92.33,42.85,25.06,3,True,2026-03-01 20:26:44
+297,5,APMT-7261,APMT-7261 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",63.73,28.04,38.46,5,True,2026-03-01 20:26:44
+298,5,WNMG-585-HD,WNMG-585-HD Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",15.73,7.57,24.56,3,True,2026-03-01 20:26:44
+299,5,SNMG-3143-HD,SNMG-3143-HD Carbide Insert Grade S15 (Pkg/10),"Indexable carbide turning/milling insert, grade S15",34.1,15.09,38.62,3,True,2026-03-01 20:26:44
+300,5,APMT-1444,APMT-1444 Carbide Insert Grade K15 (Pkg/10),"Indexable carbide turning/milling insert, grade K15",11.72,5.43,31.71,6,True,2026-03-01 20:26:44
+301,6,SK40-6009,SK40-6009 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",204.78,113.09,22.26,7,True,2026-03-01 20:26:44
+302,6,HSK100A-1774,HSK100A-1774 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",201.86,103.95,27.87,5,True,2026-03-01 20:26:44
+303,6,NT40-1792,NT40-1792 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",203.46,106.6,29.87,7,True,2026-03-01 20:26:44
+304,6,SK40-6411,SK40-6411 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",404.75,207.16,4.28,5,True,2026-03-01 20:26:44
+305,6,HSK63A-9470-B,HSK63A-9470-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",267.05,136.55,6.99,3,True,2026-03-01 20:26:44
+306,6,HSK100A-8179,HSK100A-8179 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",186.01,95.84,21.08,4,True,2026-03-01 20:26:44
+307,6,BT40-ER-6016,BT40-ER-6016 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",3722.39,1995.5,24.82,5,True,2026-03-01 20:26:44
+308,6,HSK63A-7601,HSK63A-7601 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",237.81,115.12,19.81,7,True,2026-03-01 20:26:44
+309,6,NT40-5499-A,NT40-5499-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",468.31,254.28,42.98,5,True,2026-03-01 20:26:44
+310,6,BT50-5022,BT50-5022 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1167.1,623.48,23.98,2,True,2026-03-01 20:26:44
+311,6,NT40-5328,NT40-5328 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1826.37,967.38,48.39,7,True,2026-03-01 20:26:44
+312,6,HSK63A-5439-A,HSK63A-5439-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",389.16,210.46,18.28,5,True,2026-03-01 20:26:44
+313,6,HSK63A-9803-B,HSK63A-9803-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",276.61,149.23,1.39,6,True,2026-03-01 20:26:44
+314,6,CAT50-3534-A,CAT50-3534-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2261.36,1230.45,3.5,7,True,2026-03-01 20:26:44
+315,6,NT40-8280,NT40-8280 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1293.02,648.09,32.95,6,True,2026-03-01 20:26:44
+316,6,NT40-6276,NT40-6276 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",690.9,364.19,29.13,5,True,2026-03-01 20:26:44
+317,6,NT40-9007,NT40-9007 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2208.42,1125.79,44.78,5,True,2026-03-01 20:26:44
+318,6,BT40-ER-1891-XL,BT40-ER-1891-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",348.95,185.64,8.36,5,True,2026-03-01 20:26:44
+319,6,CAT40-ER-9327-HD,CAT40-ER-9327-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1502.45,770.29,37.65,7,True,2026-03-01 20:26:44
+320,6,NT40-1835,NT40-1835 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",209.77,104.84,37.36,5,True,2026-03-01 20:26:44
+321,6,HSK63A-7403,HSK63A-7403 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",567.34,306.27,29.45,5,True,2026-03-01 20:26:44
+322,6,BT50-5751,BT50-5751 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",774.82,391.37,46.03,1,True,2026-03-01 20:26:44
+323,6,BT40-ER-2421,BT40-ER-2421 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",433.3,223.91,10.38,4,True,2026-03-01 20:26:44
+324,6,SK40-7901,SK40-7901 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",665.76,355.73,15.98,3,True,2026-03-01 20:26:44
+325,6,CAT40-ER-1985,CAT40-ER-1985 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2694.22,1430.02,33.87,2,True,2026-03-01 20:26:44
+326,6,HSK63A-8554,HSK63A-8554 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",980.23,497.66,21.35,4,True,2026-03-01 20:26:44
+327,6,HSK63A-6736-HD,HSK63A-6736-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",280.9,148.94,21.64,1,True,2026-03-01 20:26:44
+328,6,HSK63A-7465-B,HSK63A-7465-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",646.54,312.88,10.78,3,True,2026-03-01 20:26:44
+329,6,BT40-ER-9559,BT40-ER-9559 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2275.38,1189.31,18.32,2,True,2026-03-01 20:26:44
+330,6,CAT50-1967,CAT50-1967 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1468.25,762.37,48.3,3,True,2026-03-01 20:26:44
+331,6,NT40-6531-B,NT40-6531-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",221.22,112.65,22.92,2,True,2026-03-01 20:26:44
+332,6,HSK100A-9769,HSK100A-9769 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1475.3,747.09,11.97,1,True,2026-03-01 20:26:44
+333,6,BT50-6216-HD,BT50-6216-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",242.6,124.18,29.84,5,True,2026-03-01 20:26:44
+334,6,NT40-7031,NT40-7031 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",785.17,410.43,45.96,2,True,2026-03-01 20:26:44
+335,6,BT50-8122,BT50-8122 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",241.73,122.44,22.58,1,True,2026-03-01 20:26:44
+336,6,SK40-257-A,SK40-257-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",238.65,129.57,48.19,5,True,2026-03-01 20:26:44
+337,6,CAT50-6803-HD,CAT50-6803-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",798.79,427.59,22.22,2,True,2026-03-01 20:26:44
+338,6,BT40-ER-9363,BT40-ER-9363 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2247.52,1122.98,1.68,2,True,2026-03-01 20:26:44
+339,6,HSK100A-2855-XL,HSK100A-2855-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",710.58,382.05,38.31,5,True,2026-03-01 20:26:44
+340,6,BT40-ER-9483,BT40-ER-9483 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",373.07,195.17,49.55,5,True,2026-03-01 20:26:44
+341,6,CAT40-ER-7331-B,CAT40-ER-7331-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",315.43,162.3,36.81,6,True,2026-03-01 20:26:44
+342,6,HSK63A-4977-XL,HSK63A-4977-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",4489.49,2318.11,17.46,7,True,2026-03-01 20:26:44
+343,6,BT40-ER-7293-XL,BT40-ER-7293-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",4408.46,2380.86,11.89,7,True,2026-03-01 20:26:44
+344,6,SK40-7115,SK40-7115 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1219.61,659.49,40.69,7,True,2026-03-01 20:26:44
+345,6,CAT40-ER-9440,CAT40-ER-9440 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",916.93,483.27,8.46,6,True,2026-03-01 20:26:44
+346,6,HSK100A-4840-B,HSK100A-4840-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",372.38,203.34,49.28,6,True,2026-03-01 20:26:44
+347,6,BT40-ER-2321-XL,BT40-ER-2321-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2170.96,1195.08,49.62,7,True,2026-03-01 20:26:44
+348,6,BT50-2274,BT50-2274 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",246.67,125.07,12.42,7,True,2026-03-01 20:26:44
+349,6,NT40-8119,NT40-8119 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1069.1,537.93,20.74,4,True,2026-03-01 20:26:44
+350,6,BT40-ER-1625-A,BT40-ER-1625-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",866.39,436.53,46.82,3,True,2026-03-01 20:26:44
+351,6,CAT50-8096,CAT50-8096 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1085.7,593.72,42.37,1,True,2026-03-01 20:26:44
+352,6,CAT50-5969-XL,CAT50-5969-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",186.05,97.21,10.93,4,True,2026-03-01 20:26:44
+353,6,HSK63A-8205,HSK63A-8205 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",449.78,226.8,27.39,2,True,2026-03-01 20:26:44
+354,6,CAT50-5731-HD,CAT50-5731-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2004.62,976.14,31.33,7,True,2026-03-01 20:26:44
+355,6,CAT50-366,CAT50-366 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",3539.78,1752.55,22.85,4,True,2026-03-01 20:26:44
+356,6,HSK63A-2261-HD,HSK63A-2261-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",418.78,229.18,43.84,1,True,2026-03-01 20:26:44
+357,6,SK40-4202,SK40-4202 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",531.31,291.9,8.32,4,True,2026-03-01 20:26:44
+358,6,HSK100A-3936-A,HSK100A-3936-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1394.19,745.65,0.1,4,True,2026-03-01 20:26:44
+359,6,BT40-ER-2274-B,BT40-ER-2274-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",323.74,172.59,0.51,6,True,2026-03-01 20:26:44
+360,6,SK40-2075-XL,SK40-2075-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",630.81,311.13,3.59,4,True,2026-03-01 20:26:44
+361,6,BT40-ER-1778,BT40-ER-1778 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",435.46,238.52,6.9,7,True,2026-03-01 20:26:44
+362,6,BT50-2440,BT50-2440 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",911.42,441.33,32.52,4,True,2026-03-01 20:26:44
+363,6,SK40-3590-HD,SK40-3590-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1911.5,1052.41,30.82,4,True,2026-03-01 20:26:44
+364,6,HSK63A-1520,HSK63A-1520 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",241.49,118.95,36.51,3,True,2026-03-01 20:26:44
+365,6,NT40-5252-XL,NT40-5252-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",241.34,121.58,4.26,5,True,2026-03-01 20:26:44
+366,6,HSK100A-539-XL,HSK100A-539-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",2674.95,1464.16,10.31,5,True,2026-03-01 20:26:44
+367,6,HSK63A-6518,HSK63A-6518 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1350.71,730.28,39.7,2,True,2026-03-01 20:26:44
+368,6,CAT50-6422,CAT50-6422 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",340.56,180.51,3.6,1,True,2026-03-01 20:26:44
+369,6,SK40-5285,SK40-5285 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",559.11,304.53,21.07,5,True,2026-03-01 20:26:44
+370,6,BT50-7817-XL,BT50-7817-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",192.27,101.2,0.74,2,True,2026-03-01 20:26:44
+371,6,CAT40-ER-1090-XL,CAT40-ER-1090-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",580.7,292.94,35.65,7,True,2026-03-01 20:26:44
+372,6,NT40-7039-HD,NT40-7039-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",589.26,312.44,26.91,2,True,2026-03-01 20:26:44
+373,6,HSK100A-1469,HSK100A-1469 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",196.25,108.06,48.72,2,True,2026-03-01 20:26:44
+374,6,SK40-6501-B,SK40-6501-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1297.24,706.16,34.07,1,True,2026-03-01 20:26:44
+375,6,HSK100A-7267-HD,HSK100A-7267-HD Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",3840.78,1924.13,12.26,4,True,2026-03-01 20:26:44
+376,6,BT40-ER-7528-B,BT40-ER-7528-B Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1189.63,602.09,37.1,6,True,2026-03-01 20:26:44
+377,6,BT50-2056,BT50-2056 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",1666.27,890.9,8.23,3,True,2026-03-01 20:26:44
+378,6,HSK100A-2835,HSK100A-2835 Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",230.98,124.84,13.47,1,True,2026-03-01 20:26:44
+379,6,CAT40-ER-5588-XL,CAT40-ER-5588-XL Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",646.03,337.06,13.18,5,True,2026-03-01 20:26:44
+380,6,BT40-ER-8228-A,BT40-ER-8228-A Toolholder,"Precision toolholder, runout <3μm, balanced to G2.5",852.27,415.6,42.98,2,True,2026-03-01 20:26:44
+381,7,SX-2677,SX-2677 Portable CMM,"Precision measurement system, accuracy ±1.5μm",102483.36,62721.31,20321.4,11,True,2026-03-01 20:26:44
+382,7,CMM-301,CMM-301 Fixed CMM,"Precision measurement system, accuracy ±3.0μm",16815.65,9567.35,27630.7,13,True,2026-03-01 20:26:44
+383,7,RP-5372,RP-5372 Touch-Trigger Probe,"Precision measurement system, accuracy ±1.5μm",42199.53,25230.57,8356.4,10,True,2026-03-01 20:26:44
+384,7,CMM-3038,CMM-3038 Scanning Probe,"Precision measurement system, accuracy ±2.5μm",110692.39,68528.64,28636.2,10,True,2026-03-01 20:26:44
+385,7,GX-5462,GX-5462 Portable CMM,"Precision measurement system, accuracy ±3.0μm",59289.41,32019.07,6259.9,17,True,2026-03-01 20:26:44
+386,7,SX-9794-A,SX-9794-A Portable CMM,"Precision measurement system, accuracy ±1.5μm",179012.93,107837.74,22054.2,15,True,2026-03-01 20:26:44
+387,7,TCP-491,TCP-491 Touch-Trigger Probe,"Precision measurement system, accuracy ±1.5μm",57612.49,34051.2,20895.8,8,True,2026-03-01 20:26:44
+388,7,TCP-5138,TCP-5138 Portable CMM,"Precision measurement system, accuracy ±2.5μm",24976.59,15466.23,12768.5,9,True,2026-03-01 20:26:44
+389,7,OMP-819,OMP-819 Scanning Probe,"Precision measurement system, accuracy ±1.5μm",139452.75,81106.34,21115.2,19,True,2026-03-01 20:26:44
+390,7,OMP-8380,OMP-8380 Scanning Probe,"Precision measurement system, accuracy ±2.0μm",73073.93,41756.0,17879.3,9,True,2026-03-01 20:26:44
+391,7,RP-4878,RP-4878 Touch-Trigger Probe,"Precision measurement system, accuracy ±3.0μm",124274.31,76378.32,11970.7,18,True,2026-03-01 20:26:44
+392,7,GX-3927,GX-3927 Portable CMM,"Precision measurement system, accuracy ±1.5μm",156443.59,86114.73,23173.4,11,True,2026-03-01 20:26:44
+393,7,TS-7465-A,TS-7465-A Scanning Probe,"Precision measurement system, accuracy ±2.5μm",32733.32,17977.26,10941.1,14,True,2026-03-01 20:26:44
+394,7,RMP-4441-XL,RMP-4441-XL Portable CMM,"Precision measurement system, accuracy ±2.5μm",20206.9,11158.22,20675.8,9,True,2026-03-01 20:26:44
+395,7,TS-1594-HD,TS-1594-HD Touch-Trigger Probe,"Precision measurement system, accuracy ±2.0μm",27794.85,15795.43,15549.8,17,True,2026-03-01 20:26:44
+396,7,CMM-6725-XL,CMM-6725-XL Fixed CMM,"Precision measurement system, accuracy ±2.0μm",46142.2,27691.96,7720.6,22,True,2026-03-01 20:26:44
+397,7,OMP-295,OMP-295 Touch-Trigger Probe,"Precision measurement system, accuracy ±1.5μm",118090.1,73119.55,4182.2,20,True,2026-03-01 20:26:44
+398,7,GX-1328,GX-1328 Fixed CMM,"Precision measurement system, accuracy ±2.5μm",178734.82,99279.57,19485.8,12,True,2026-03-01 20:26:44
+399,7,OMP-799-A,OMP-799-A Scanning Probe,"Precision measurement system, accuracy ±1.5μm",17011.34,10452.44,13164.7,20,True,2026-03-01 20:26:44
+400,7,TCP-7090,TCP-7090 Portable CMM,"Precision measurement system, accuracy ±1.5μm",36145.99,22163.07,8467.0,22,True,2026-03-01 20:26:44
+401,7,RP-4935-A,RP-4935-A Scanning Probe,"Precision measurement system, accuracy ±2.0μm",41754.71,24389.59,2111.1,16,True,2026-03-01 20:26:44
+402,7,TCP-3367-HD,TCP-3367-HD Scanning Probe,"Precision measurement system, accuracy ±2.5μm",135142.41,78665.87,19033.4,8,True,2026-03-01 20:26:44
+403,7,RMP-9021-XL,RMP-9021-XL Touch-Trigger Probe,"Precision measurement system, accuracy ±2.0μm",50020.53,30688.06,15221.1,20,True,2026-03-01 20:26:44
+404,7,CMM-5324-B,CMM-5324-B Scanning Probe,"Precision measurement system, accuracy ±2.5μm",25849.59,15823.47,23422.6,9,True,2026-03-01 20:26:44
+405,7,RP-2715,RP-2715 Portable CMM,"Precision measurement system, accuracy ±3.0μm",27769.88,15522.85,16150.6,9,True,2026-03-01 20:26:44
+406,7,SX-2946,SX-2946 Fixed CMM,"Precision measurement system, accuracy ±2.5μm",27000.56,15261.31,22221.7,19,True,2026-03-01 20:26:44
+407,7,TS-9325,TS-9325 Portable CMM,"Precision measurement system, accuracy ±3.0μm",119960.65,72600.73,29120.5,17,True,2026-03-01 20:26:44
+408,7,CMM-1578,CMM-1578 Touch-Trigger Probe,"Precision measurement system, accuracy ±2.0μm",26738.31,14897.71,15935.5,8,True,2026-03-01 20:26:44
+409,7,TS-5682-HD,TS-5682-HD Fixed CMM,"Precision measurement system, accuracy ±2.0μm",23313.24,14094.18,26086.0,9,True,2026-03-01 20:26:44
+410,7,TS-1917-XL,TS-1917-XL Fixed CMM,"Precision measurement system, accuracy ±2.5μm",55470.08,31564.09,2454.2,20,True,2026-03-01 20:26:44
+411,7,GX-5385,GX-5385 Touch-Trigger Probe,"Precision measurement system, accuracy ±2.0μm",169520.33,101520.13,13275.0,23,True,2026-03-01 20:26:44
+412,7,SX-3757-HD,SX-3757-HD Portable CMM,"Precision measurement system, accuracy ±2.0μm",64814.95,35884.06,9412.6,17,True,2026-03-01 20:26:44
+413,7,CMM-9485-A,CMM-9485-A Touch-Trigger Probe,"Precision measurement system, accuracy ±2.0μm",124225.92,74782.94,17154.2,13,True,2026-03-01 20:26:44
+414,7,OMP-8229,OMP-8229 Portable CMM,"Precision measurement system, accuracy ±1.5μm",34157.18,18640.18,10600.3,18,True,2026-03-01 20:26:44
+415,7,SX-7417,SX-7417 Fixed CMM,"Precision measurement system, accuracy ±1.5μm",28993.69,16226.69,2313.5,16,True,2026-03-01 20:26:44
+416,8,TCS-6423-A,TCS-6423-A Through-Spindle System,"Through-Spindle coolant system, flow 109 L/min",22730.56,13565.09,44.23,4,True,2026-03-01 20:26:44
+417,8,MCS-6249,MCS-6249 Coolant Filtration System,"Coolant Filtration coolant system, flow 77 L/min",29062.62,16932.94,28.92,7,True,2026-03-01 20:26:44
+418,8,HPP-7493,HPP-7493 High-Pressure System,"High-Pressure coolant system, flow 38 L/min",26945.75,14103.93,1.05,3,True,2026-03-01 20:26:44
+419,8,FIL-2887-A,FIL-2887-A Through-Spindle System,"Through-Spindle coolant system, flow 172 L/min",5278.79,2780.23,47.09,1,True,2026-03-01 20:26:44
+420,8,MCS-8009-HD,MCS-8009-HD High-Pressure System,"High-Pressure coolant system, flow 33 L/min",3788.3,2252.85,8.29,4,True,2026-03-01 20:26:44
+421,8,TCS-5524,TCS-5524 Coolant Filtration System,"Coolant Filtration coolant system, flow 87 L/min",42151.85,23305.23,27.73,6,True,2026-03-01 20:26:44
+422,8,CLP-4712,CLP-4712 Through-Spindle System,"Through-Spindle coolant system, flow 59 L/min",6420.12,3368.58,28.61,7,True,2026-03-01 20:26:44
+423,8,TCS-6011,TCS-6011 Through-Spindle System,"Through-Spindle coolant system, flow 71 L/min",10431.45,5673.59,33.12,5,True,2026-03-01 20:26:44
+424,8,TCS-521,TCS-521 High-Pressure System,"High-Pressure coolant system, flow 98 L/min",5414.34,2943.66,4.14,7,True,2026-03-01 20:26:44
+425,8,BCS-6612-A,BCS-6612-A Through-Spindle System,"Through-Spindle coolant system, flow 67 L/min",12205.26,6989.04,4.6,5,True,2026-03-01 20:26:44
+426,8,FIL-6349,FIL-6349 High-Pressure System,"High-Pressure coolant system, flow 88 L/min",5636.58,2955.25,22.02,3,True,2026-03-01 20:26:44
+427,8,MCS-1109,MCS-1109 Coolant Filtration System,"Coolant Filtration coolant system, flow 125 L/min",23900.42,13698.04,4.33,3,True,2026-03-01 20:26:44
+428,8,BCS-9762,BCS-9762 Coolant Filtration System,"Coolant Filtration coolant system, flow 195 L/min",14391.05,8443.5,40.93,4,True,2026-03-01 20:26:44
+429,8,BCS-7879-B,BCS-7879-B Coolant Filtration System,"Coolant Filtration coolant system, flow 28 L/min",33262.09,18564.87,3.99,7,True,2026-03-01 20:26:44
+430,8,MCS-9458-B,MCS-9458-B Through-Spindle System,"Through-Spindle coolant system, flow 64 L/min",27032.31,15514.35,31.03,1,True,2026-03-01 20:26:44
+431,8,HPP-3571-XL,HPP-3571-XL Through-Spindle System,"Through-Spindle coolant system, flow 71 L/min",5725.71,3001.11,3.96,6,True,2026-03-01 20:26:44
+432,8,BCS-2522-XL,BCS-2522-XL High-Pressure System,"High-Pressure coolant system, flow 42 L/min",15997.86,8732.73,36.37,7,True,2026-03-01 20:26:44
+433,8,CFC-9215-A,CFC-9215-A High-Pressure System,"High-Pressure coolant system, flow 199 L/min",14334.28,8427.97,26.01,7,True,2026-03-01 20:26:44
+434,8,MCS-9726-B,MCS-9726-B Coolant Filtration System,"Coolant Filtration coolant system, flow 169 L/min",25767.39,13646.96,7.52,5,True,2026-03-01 20:26:44
+435,8,BCS-1741,BCS-1741 Through-Spindle System,"Through-Spindle coolant system, flow 125 L/min",14728.74,7787.34,14.34,5,True,2026-03-01 20:26:44
+436,8,FIL-6375-HD,FIL-6375-HD Through-Spindle System,"Through-Spindle coolant system, flow 56 L/min",12096.28,6877.25,1.92,3,True,2026-03-01 20:26:44
+437,8,MCS-6681,MCS-6681 Coolant Filtration System,"Coolant Filtration coolant system, flow 141 L/min",9617.44,5671.5,34.54,1,True,2026-03-01 20:26:44
+438,8,FIL-6202,FIL-6202 Through-Spindle System,"Through-Spindle coolant system, flow 198 L/min",8294.88,4836.1,15.58,7,True,2026-03-01 20:26:44
+439,8,CLP-1709-XL,CLP-1709-XL Through-Spindle System,"Through-Spindle coolant system, flow 88 L/min",6264.78,3410.28,37.2,7,True,2026-03-01 20:26:44
+440,8,CLP-6928-B,CLP-6928-B Through-Spindle System,"Through-Spindle coolant system, flow 144 L/min",18200.43,9746.95,10.61,7,True,2026-03-01 20:26:44
+441,8,BCS-8562-XL,BCS-8562-XL Through-Spindle System,"Through-Spindle coolant system, flow 149 L/min",9094.7,4776.6,39.58,1,True,2026-03-01 20:26:44
+442,8,CFC-2322-XL,CFC-2322-XL High-Pressure System,"High-Pressure coolant system, flow 34 L/min",30780.63,18152.56,1.5,2,True,2026-03-01 20:26:44
+443,8,HPP-641-A,HPP-641-A Through-Spindle System,"Through-Spindle coolant system, flow 149 L/min",3982.41,2186.56,10.0,3,True,2026-03-01 20:26:44
+444,8,CFC-2129-HD,CFC-2129-HD Through-Spindle System,"Through-Spindle coolant system, flow 170 L/min",3784.14,2081.28,29.72,2,True,2026-03-01 20:26:44
+445,8,MCS-5830,MCS-5830 High-Pressure System,"High-Pressure coolant system, flow 92 L/min",5314.08,3140.24,37.46,6,True,2026-03-01 20:26:44
+446,9,RAC-6433,RAC-6433 Pallet Changer,Automation solution for grinding cells,35628.97,24472.79,28958.1,15,True,2026-03-01 20:26:44
+447,9,PC-4508-HD,PC-4508-HD Bar Feeder,Automation solution for machining cells,60913.35,38637.89,23475.0,8,True,2026-03-01 20:26:44
+448,9,TL-2937-B,TL-2937-B Conveyor System,Automation solution for turning cells,142673.38,93266.0,18367.8,17,True,2026-03-01 20:26:44
+449,9,CS-5813-A,CS-5813-A Robotic Loading Cell,Automation solution for machining cells,43246.25,29270.34,20412.7,20,True,2026-03-01 20:26:44
+450,9,ATC-6231-B,ATC-6231-B Bar Feeder,Automation solution for machining cells,102174.71,70539.54,9164.7,11,True,2026-03-01 20:26:44
+451,9,DC-4629-HD,DC-4629-HD Pallet Changer,Automation solution for machining cells,50702.15,33400.52,19786.8,17,True,2026-03-01 20:26:44
+452,9,ATC-4037,ATC-4037 Pallet Changer,Automation solution for grinding cells,144096.86,102133.7,18121.0,18,True,2026-03-01 20:26:44
+453,9,RAC-8248,RAC-8248 Pallet Changer,Automation solution for turning cells,43950.48,29545.6,11831.8,9,True,2026-03-01 20:26:44
+454,9,TL-3743-HD,TL-3743-HD Conveyor System,Automation solution for machining cells,79963.83,56544.2,27223.8,19,True,2026-03-01 20:26:44
+455,9,RB-9246,RB-9246 Conveyor System,Automation solution for grinding cells,47360.25,32073.23,22305.3,13,True,2026-03-01 20:26:44
+456,9,RAC-3741,RAC-3741 Conveyor System,Automation solution for turning cells,40632.11,29066.6,12788.0,18,True,2026-03-01 20:26:44
+457,9,ATC-4917-A,ATC-4917-A Bar Feeder,Automation solution for machining cells,159183.03,107797.96,26031.9,10,True,2026-03-01 20:26:44
+458,9,ATC-2063-XL,ATC-2063-XL Pallet Changer,Automation solution for machining cells,109861.94,75018.2,12569.3,12,True,2026-03-01 20:26:44
+459,9,DC-6804-B,DC-6804-B Robotic Loading Cell,Automation solution for turning cells,174267.64,126575.64,4553.8,13,True,2026-03-01 20:26:44
+460,9,DC-2997,DC-2997 Pallet Changer,Automation solution for turning cells,99360.39,62880.1,8423.8,13,True,2026-03-01 20:26:44
+461,9,RB-1542,RB-1542 Bar Feeder,Automation solution for machining cells,95127.37,65895.49,12280.8,23,True,2026-03-01 20:26:44
+462,9,RAC-8845,RAC-8845 Pallet Changer,Automation solution for machining cells,122471.44,88528.06,26792.6,24,True,2026-03-01 20:26:44
+463,9,TL-167-HD,TL-167-HD Pallet Changer,Automation solution for machining cells,123258.13,80603.48,26346.5,17,True,2026-03-01 20:26:44
+464,9,CS-8346-B,CS-8346-B Bar Feeder,Automation solution for grinding cells,48647.49,31067.03,1657.8,17,True,2026-03-01 20:26:44
+465,9,ATC-9870-B,ATC-9870-B Bar Feeder,Automation solution for turning cells,52121.81,37367.96,29865.5,18,True,2026-03-01 20:26:44
+466,9,RB-3187,RB-3187 Pallet Changer,Automation solution for grinding cells,196512.08,141451.98,12280.7,15,True,2026-03-01 20:26:44
+467,9,PC-3560-HD,PC-3560-HD Bar Feeder,Automation solution for grinding cells,26220.24,17841.33,3957.9,9,True,2026-03-01 20:26:44
+468,9,DC-8861-B,DC-8861-B Robotic Loading Cell,Automation solution for grinding cells,27786.23,20203.19,19960.5,8,True,2026-03-01 20:26:44
+469,9,RAC-6928-A,RAC-6928-A Pallet Changer,Automation solution for grinding cells,57158.8,39125.27,14389.6,12,True,2026-03-01 20:26:44
+470,9,TL-252,TL-252 Bar Feeder,Automation solution for machining cells,62437.54,40085.73,15753.2,12,True,2026-03-01 20:26:44
+471,10,BRG-2028,BRG-2028 Bearing Set,OEM-quality replacement part for machine tool maintenance,97.82,36.97,9.97,2,True,2026-03-01 20:26:44
+472,10,RPK-8671,RPK-8671 Seal Kit,OEM-quality replacement part for machine tool maintenance,411.08,162.35,8.06,5,True,2026-03-01 20:26:44
+473,10,BS-7975,BS-7975 Seal Kit,OEM-quality replacement part for machine tool maintenance,198.81,74.1,4.5,1,True,2026-03-01 20:26:44
+474,10,BS-1575-XL,BS-1575-XL Way Lube Kit,OEM-quality replacement part for machine tool maintenance,1016.35,419.26,5.11,3,True,2026-03-01 20:26:44
+475,10,LUB-4950,LUB-4950 Bearing Set,OEM-quality replacement part for machine tool maintenance,768.78,290.28,8.78,1,True,2026-03-01 20:26:44
+476,10,WC-KIT-5223-A,WC-KIT-5223-A Spindle Assembly,OEM-quality replacement part for machine tool maintenance,3862.8,1457.51,37.92,1,True,2026-03-01 20:26:44
+477,10,RPK-2367-HD,RPK-2367-HD Bearing Set,OEM-quality replacement part for machine tool maintenance,2256.34,880.89,44.73,5,True,2026-03-01 20:26:44
+478,10,SGP-1622,SGP-1622 Bearing Set,OEM-quality replacement part for machine tool maintenance,6057.11,2315.27,20.07,4,True,2026-03-01 20:26:44
+479,10,RPK-6419-HD,RPK-6419-HD Way Cover Set,OEM-quality replacement part for machine tool maintenance,7473.84,3115.05,32.46,7,True,2026-03-01 20:26:44
+480,10,SP-2271-HD,SP-2271-HD Coolant Additive,OEM-quality replacement part for machine tool maintenance,3596.64,1535.65,42.23,1,True,2026-03-01 20:26:44
+481,10,BRG-8008-XL,BRG-8008-XL Maintenance Kit,OEM-quality replacement part for machine tool maintenance,1423.51,564.47,30.59,7,True,2026-03-01 20:26:44
+482,10,BRG-572-XL,BRG-572-XL Seal Kit,OEM-quality replacement part for machine tool maintenance,2809.75,1177.17,48.67,2,True,2026-03-01 20:26:44
+483,10,LUB-1950-A,LUB-1950-A Way Lube Kit,OEM-quality replacement part for machine tool maintenance,669.12,251.29,32.77,1,True,2026-03-01 20:26:44
+484,10,SGP-5642-B,SGP-5642-B Way Lube Kit,OEM-quality replacement part for machine tool maintenance,1086.88,446.96,4.81,6,True,2026-03-01 20:26:44
+485,10,LUB-5764-HD,LUB-5764-HD Spindle Assembly,OEM-quality replacement part for machine tool maintenance,2677.85,1053.88,41.96,5,True,2026-03-01 20:26:44
+486,10,SP-2671-B,SP-2671-B Seal Kit,OEM-quality replacement part for machine tool maintenance,7393.94,3103.27,43.48,1,True,2026-03-01 20:26:44
+487,10,WC-KIT-4046,WC-KIT-4046 Coolant Additive,OEM-quality replacement part for machine tool maintenance,15099.21,5659.48,11.17,6,True,2026-03-01 20:26:44
+488,10,LUB-3950,LUB-3950 Seal Kit,OEM-quality replacement part for machine tool maintenance,745.68,310.85,22.43,7,True,2026-03-01 20:26:44
+489,10,LUB-5278,LUB-5278 Coolant Additive,OEM-quality replacement part for machine tool maintenance,16064.27,6646.32,0.94,4,True,2026-03-01 20:26:44
+490,10,SP-9228-B,SP-9228-B Bearing Set,OEM-quality replacement part for machine tool maintenance,50.05,18.87,30.23,5,True,2026-03-01 20:26:44
+491,10,BRG-9313,BRG-9313 Spindle Assembly,OEM-quality replacement part for machine tool maintenance,2356.76,936.92,17.08,7,True,2026-03-01 20:26:44
+492,10,RPK-3752-XL,RPK-3752-XL Maintenance Kit,OEM-quality replacement part for machine tool maintenance,725.62,292.69,31.01,4,True,2026-03-01 20:26:44
+493,10,SGP-7514,SGP-7514 Bearing Set,OEM-quality replacement part for machine tool maintenance,88.73,36.28,0.16,3,True,2026-03-01 20:26:44
+494,10,BRG-8652,BRG-8652 Coolant Additive,OEM-quality replacement part for machine tool maintenance,3117.02,1167.52,8.25,2,True,2026-03-01 20:26:44
+495,10,SP-4266-B,SP-4266-B Seal Kit,OEM-quality replacement part for machine tool maintenance,158.42,60.0,42.62,2,True,2026-03-01 20:26:44
+496,10,RPK-3222-HD,RPK-3222-HD Ballscrew Kit,OEM-quality replacement part for machine tool maintenance,365.45,151.44,2.37,6,True,2026-03-01 20:26:44
+497,10,RPK-7481-A,RPK-7481-A Spindle Assembly,OEM-quality replacement part for machine tool maintenance,2410.93,1025.96,6.78,4,True,2026-03-01 20:26:44
+498,10,BRG-895-B,BRG-895-B Way Cover Set,OEM-quality replacement part for machine tool maintenance,12299.88,5153.33,24.17,5,True,2026-03-01 20:26:44
+499,10,SGP-9579,SGP-9579 Maintenance Kit,OEM-quality replacement part for machine tool maintenance,3684.13,1396.98,19.4,5,True,2026-03-01 20:26:44
+500,10,BRG-6402-A,BRG-6402-A Coolant Additive,OEM-quality replacement part for machine tool maintenance,15954.02,6753.19,38.13,3,True,2026-03-01 20:26:44

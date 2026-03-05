@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Example_SilverLakehouse_Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f6eb3e0d-3d6b-907c-4528-6a451f3a9556"
+  }
+}

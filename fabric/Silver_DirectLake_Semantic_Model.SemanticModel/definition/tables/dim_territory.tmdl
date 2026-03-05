@@ -1,0 +1,85 @@
+table dim_territory
+	lineageTag: 1a002001-0002-4000-8000-000000000000
+	sourceLineageTag: [dbo].[dim_territory]
+
+	column territory_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a002001-0002-4000-8000-000000000001
+		sourceLineageTag: territory_key
+		summarizeBy: none
+		sourceColumn: territory_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column territory_id
+		dataType: string
+		lineageTag: 1a002001-0002-4000-8000-000000000002
+		sourceLineageTag: territory_id
+		summarizeBy: none
+		sourceColumn: territory_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column territory_name
+		dataType: string
+		lineageTag: 1a002001-0002-4000-8000-000000000003
+		sourceLineageTag: territory_name
+		summarizeBy: none
+		sourceColumn: territory_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column territory_type
+		dataType: string
+		lineageTag: 1a002001-0002-4000-8000-000000000004
+		sourceLineageTag: territory_type
+		summarizeBy: none
+		sourceColumn: territory_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column region_code
+		dataType: string
+		lineageTag: 1a002001-0002-4000-8000-000000000005
+		sourceLineageTag: region_code
+		summarizeBy: none
+		sourceColumn: region_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_domestic
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a002001-0002-4000-8000-000000000006
+		sourceLineageTag: is_domestic
+		summarizeBy: none
+		sourceColumn: is_domestic
+
+		annotation SummarizationSetBy = Automatic
+
+	column manager_name
+		dataType: string
+		lineageTag: 1a002001-0002-4000-8000-000000000007
+		sourceLineageTag: manager_name
+		summarizeBy: none
+		sourceColumn: manager_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_created_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a002001-0002-4000-8000-000000000008
+		sourceLineageTag: dw_created_at
+		summarizeBy: none
+		sourceColumn: dw_created_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_territory = entity
+		mode: directLake
+		source
+			entityName: dim_territory
+			expressionSource: 'DirectLake - SilverLakehouse'
+

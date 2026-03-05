@@ -1,0 +1,14 @@
+territory_id,territory_name,territory_type,region_code,manager_name,created_at
+1,Great Lakes,Domestic,GL,Robert Danforth,2026-03-01 20:26:44
+2,Southeast,Domestic,SE,Patricia Okafor,2026-03-01 20:26:44
+3,Mid-Atlantic,Domestic,MA,James Kowalski,2026-03-01 20:26:44
+4,Southwest,Domestic,SW,Maria Gutierrez,2026-03-01 20:26:44
+5,West Coast,Domestic,WC,Kevin Nguyen,2026-03-01 20:26:44
+6,Mountain West,Domestic,MW,Sandra Reeves,2026-03-01 20:26:44
+7,New England,Domestic,NE,William Frost,2026-03-01 20:26:44
+8,Canada,International,CAN,Claire Beaumont,2026-03-01 20:26:44
+9,Mexico,International,MEX,Alejandro Torres,2026-03-01 20:26:44
+10,Western Europe,International,WEU,Hans Bergmann,2026-03-01 20:26:44
+11,East Asia,International,EAS,Yuki Tanaka,2026-03-01 20:26:44
+12,India,International,IND,Priya Sharma,2026-03-01 20:26:44
+13,Brazil,International,BRA,Felipe Santos,2026-03-01 20:26:44

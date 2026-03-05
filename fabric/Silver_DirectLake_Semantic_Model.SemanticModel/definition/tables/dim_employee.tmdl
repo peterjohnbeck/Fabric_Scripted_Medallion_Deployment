@@ -1,0 +1,108 @@
+table dim_employee
+	lineageTag: 1a006001-0006-4000-8000-000000000000
+	sourceLineageTag: [dbo].[dim_employee]
+
+	column employee_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a006001-0006-4000-8000-000000000001
+		sourceLineageTag: employee_key
+		summarizeBy: none
+		sourceColumn: employee_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column employee_id
+		dataType: string
+		lineageTag: 1a006001-0006-4000-8000-000000000002
+		sourceLineageTag: employee_id
+		summarizeBy: none
+		sourceColumn: employee_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column full_name
+		dataType: string
+		lineageTag: 1a006001-0006-4000-8000-000000000003
+		sourceLineageTag: full_name
+		summarizeBy: none
+		sourceColumn: full_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		lineageTag: 1a006001-0006-4000-8000-000000000004
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column territory_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a006001-0006-4000-8000-000000000005
+		sourceLineageTag: territory_key
+		summarizeBy: none
+		sourceColumn: territory_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column hire_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a006001-0006-4000-8000-000000000006
+		sourceLineageTag: hire_date
+		summarizeBy: none
+		sourceColumn: hire_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column tenure_years
+		dataType: double
+		lineageTag: 1a006001-0006-4000-8000-000000000007
+		sourceLineageTag: tenure_years
+		summarizeBy: sum
+		sourceColumn: tenure_years
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column is_active
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a006001-0006-4000-8000-000000000008
+		sourceLineageTag: is_active
+		summarizeBy: none
+		sourceColumn: is_active
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_created_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a006001-0006-4000-8000-000000000009
+		sourceLineageTag: dw_created_at
+		summarizeBy: none
+		sourceColumn: dw_created_at
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_updated_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a006001-0006-4000-8000-00000000000a
+		sourceLineageTag: dw_updated_at
+		summarizeBy: none
+		sourceColumn: dw_updated_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_employee = entity
+		mode: directLake
+		source
+			entityName: dim_employee
+			expressionSource: 'DirectLake - SilverLakehouse'
+

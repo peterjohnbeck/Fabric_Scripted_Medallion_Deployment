@@ -1,0 +1,33 @@
+relationship 21145bc0-cb0c-25d6-1367-82b845c4954e
+	fromColumn: fact_sales.date_key
+	toColumn: dim_date.date_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000002
+	isActive: false
+	fromColumn: fact_sales.shipped_date_key
+	toColumn: dim_date.date_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000003
+	fromColumn: fact_sales.customer_key
+	toColumn: dim_customer.customer_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000004
+	fromColumn: fact_sales.product_key
+	toColumn: dim_product.product_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000006
+	fromColumn: fact_sales.employee_key
+	toColumn: dim_employee.employee_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000007
+	fromColumn: fact_sales.territory_key
+	toColumn: dim_territory.territory_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000008
+	fromColumn: fact_sales.currency_key
+	toColumn: dim_currency.currency_key
+
+relationship a1b2c3d4-0010-4000-8000-000000000009
+	fromColumn: dim_product.category_key
+	toColumn: dim_product_category.category_key
+

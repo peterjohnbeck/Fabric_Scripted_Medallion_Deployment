@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" version="24.0.0" type="device">
+  <diagram id="arch-diagram" name="Medallion Architecture">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TITLE -->
+        <mxCell id="title" value="Fabric Scripted Medallion Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#0078D4;" vertex="1" parent="1">
+          <mxGeometry x="150" y="15" width="900" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- FABRIC WORKSPACE BORDER -->
+        <mxCell id="bg-fabric-border" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0078D4;strokeWidth=2;dashed=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="195" width="855" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="fabric-label" value="Microsoft Fabric Workspace" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#0078D4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="198" width="280" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- LAYER BACKGROUND RECTANGLES -->
+        <mxCell id="bg-local" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;opacity=50;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="820" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-bronze" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE9E7;strokeColor=#E64A19;opacity=50;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="215" width="820" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-silver" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;opacity=50;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="820" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-gold" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;opacity=50;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="485" width="820" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- LAYER LABELS -->
+        <mxCell id="lbl-local"  value="LOCAL"  style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontStyle=1;fontColor=#4CAF50;" vertex="1" parent="1">
+          <mxGeometry x="25" y="73" width="60" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl-bronze" value="BRONZE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontStyle=1;fontColor=#E64A19;" vertex="1" parent="1">
+          <mxGeometry x="25" y="218" width="70" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl-silver" value="SILVER" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontStyle=1;fontColor=#1565C0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="353" width="60" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl-gold"   value="GOLD"   style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontStyle=1;fontColor=#F9A825;" vertex="1" parent="1">
+          <mxGeometry x="25" y="488" width="60" height="16" as="geometry" />
+        </mxCell>
+
+        <!-- LOCAL COMPONENTS -->
+        <mxCell id="python" value="&lt;b&gt;generate_bronze_data.py&lt;/b&gt;&lt;br&gt;Python · pandas · numpy · seed=42" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A5D6A7;strokeColor=#388E3C;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="csvs" value="&lt;b&gt;data/bronze/*.csv&lt;/b&gt;&lt;br&gt;9 source files" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="305" y="88" width="150" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="github" value="&lt;b&gt;GitHub (public)&lt;/b&gt;&lt;br&gt;peterjohnbeck/&lt;br&gt;Fabric_Scripted_Medallion_Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#616161;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="515" y="90" width="230" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- BRONZE COMPONENTS -->
+        <mxCell id="bronze-nb" value="&lt;b&gt;Bronze_LoadData&lt;/b&gt;&lt;br&gt;Spark Notebook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCBC;strokeColor=#E64A19;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="232" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bronze-lh" value="&lt;b&gt;BronzeLakehouse&lt;/b&gt;&lt;br&gt;raw_product_categories · raw_products · raw_territories · raw_employees&lt;br&gt;raw_currencies · raw_customers · raw_exchange_rates · raw_sales_orders · raw_sales_order_lines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCBC;strokeColor=#E64A19;fontSize=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="232" width="490" height="66" as="geometry" />
+        </mxCell>
+
+        <!-- SILVER COMPONENTS -->
+        <mxCell id="silver-nb" value="&lt;b&gt;Silver_Transformation&lt;/b&gt;&lt;br&gt;Spark Notebook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="367" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="silver-lh" value="&lt;b&gt;SilverLakehouse  (Star Schema)&lt;/b&gt;&lt;br&gt;dim_date · dim_territory · dim_currency · dim_product_category&lt;br&gt;dim_product · dim_employee · dim_customer · fact_sales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="367" width="490" height="66" as="geometry" />
+        </mxCell>
+
+        <!-- GOLD COMPONENTS -->
+        <mxCell id="gold-nb" value="&lt;b&gt;Gold_Aggregation&lt;/b&gt;&lt;br&gt;Spark Notebook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="502" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="gold-lh" value="&lt;b&gt;GoldLakehouse&lt;/b&gt;&lt;br&gt;gold_sales_by_customer · gold_sales_by_product · gold_sales_by_territory&lt;br&gt;gold_sales_by_month · gold_product_category_performance · gold_international_vs_domestic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="502" width="490" height="66" as="geometry" />
+        </mxCell>
+
+        <!-- SEMANTIC MODEL -->
+        <mxCell id="sem-model" value="&lt;b&gt;Silver_DirectLake_Semantic_Model&lt;/b&gt;&lt;br&gt;DirectLake on SilverLakehouse&lt;br&gt;&lt;br&gt;7 DAX Measures:&lt;br&gt;Total Revenue · Gross Profit · Total Orders&lt;br&gt;Total Units Sold · Avg Order Value&lt;br&gt;Gross Margin % · Total Cost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE7F6;strokeColor=#7B1FA2;fontSize=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="920" y="340" width="310" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- REPORT -->
+        <mxCell id="report" value="&lt;b&gt;Silver_Sales_Report&lt;/b&gt;&lt;br&gt;&lt;br&gt;Page 1: Sales Overview&lt;br&gt;(4 KPIs · line chart · bar chart · slicer · donut)&lt;br&gt;&lt;br&gt;Page 2: Product Performance&lt;br&gt;(2 KPIs · 2 bar charts · product table)&lt;br&gt;&lt;br&gt;Page 3: Customer Analysis&lt;br&gt;(2 bar charts · customer table)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3F51B5;fontSize=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="340" width="300" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- GIT SYNC ANNOTATION -->
+        <mxCell id="git-sync" value="Git-synced: fabric/ folder → Fabric Workspace" style="text;html=1;strokeColor=#0078D4;fillColor=#E3F2FD;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="520" width="310" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ═══════════════ EDGES ═══════════════ -->
+
+        <!-- Python → CSVs -->
+        <mxCell id="e-py-csv" value="generates" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="python" target="csvs" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- CSVs → GitHub -->
+        <mxCell id="e-csv-gh" value="git push" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="csvs" target="github" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- GitHub → Bronze Notebook (down and left, through gap between LOCAL and BRONZE) -->
+        <mxCell id="e-gh-bn" value="raw.githubusercontent.com" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="github" target="bronze-nb" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="188" />
+              <mxPoint x="150" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Bronze Notebook → BronzeLakehouse -->
+        <mxCell id="e-bn-bl" value="writes Delta tables" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="bronze-nb" target="bronze-lh" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- BronzeLakehouse → Silver Notebook (down through gap between BRONZE and SILVER) -->
+        <mxCell id="e-bl-sn" value="cross-lakehouse read" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="bronze-lh" target="silver-nb" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="325" />
+              <mxPoint x="150" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Silver Notebook → SilverLakehouse -->
+        <mxCell id="e-sn-sl" value="writes star schema" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="silver-nb" target="silver-lh" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- SilverLakehouse → Gold Notebook (down through gap between SILVER and GOLD) -->
+        <mxCell id="e-sl-gn" value="cross-lakehouse read" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="silver-lh" target="gold-nb" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="460" />
+              <mxPoint x="150" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Gold Notebook → GoldLakehouse -->
+        <mxCell id="e-gn-gl" value="writes aggregations" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="gold-nb" target="gold-lh" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- SilverLakehouse → Semantic Model (DirectLake) -->
+        <mxCell id="e-sl-sm" value="DirectLake" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#7B1FA2;fontColor=#7B1FA2;dashed=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="silver-lh" target="sem-model" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Semantic Model → Report -->
+        <mxCell id="e-sm-rpt" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="sem-model" target="report" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

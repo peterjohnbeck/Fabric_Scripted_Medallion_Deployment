@@ -1,0 +1,209 @@
+table gold_product_category_performance
+	lineageTag: 80792baf-9df6-4401-8a96-fbe7be18ed42
+	sourceLineageTag: [dbo].[gold_product_category_performance]
+
+	column category_key
+		dataType: int64
+		formatString: 0
+		lineageTag: f24a3ddf-daad-4dfd-b50a-74a29ad7f034
+		sourceLineageTag: category_key
+		summarizeBy: sum
+		sourceColumn: category_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 19fec17f-ca97-452c-851a-926f338bcfe8
+		sourceLineageTag: category_id
+		summarizeBy: sum
+		sourceColumn: category_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_name
+		dataType: string
+		lineageTag: b223a8b8-7874-4c0e-953d-d83e7e654595
+		sourceLineageTag: category_name
+		summarizeBy: none
+		sourceColumn: category_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_capital_equip
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: cd7a4da2-4883-41f2-a2fc-51717781d55a
+		sourceLineageTag: is_capital_equip
+		summarizeBy: none
+		sourceColumn: is_capital_equip
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 11afcf2c-a712-440e-ba8f-e74afbbf4514
+		sourceLineageTag: product_count
+		summarizeBy: sum
+		sourceColumn: product_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_revenue_usd
+		dataType: double
+		lineageTag: 639bcdf4-706d-48b7-8b21-d58e6d7dd249
+		sourceLineageTag: total_revenue_usd
+		summarizeBy: sum
+		sourceColumn: total_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_units_sold
+		dataType: int64
+		formatString: 0
+		lineageTag: 8736a848-778a-4c21-bcc9-0889acebebf9
+		sourceLineageTag: total_units_sold
+		summarizeBy: sum
+		sourceColumn: total_units_sold
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_gross_profit_usd
+		dataType: double
+		lineageTag: d421a183-442b-4095-bf42-77d870e941af
+		sourceLineageTag: total_gross_profit_usd
+		summarizeBy: sum
+		sourceColumn: total_gross_profit_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_margin_pct
+		dataType: double
+		lineageTag: ec00a75d-95b6-438c-97e4-894e9758f784
+		sourceLineageTag: gross_margin_pct
+		summarizeBy: sum
+		sourceColumn: gross_margin_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_selling_price_usd
+		dataType: double
+		lineageTag: 4bf747d8-de1a-4147-b9b9-6051329763e2
+		sourceLineageTag: avg_selling_price_usd
+		summarizeBy: sum
+		sourceColumn: avg_selling_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_orders
+		dataType: int64
+		formatString: 0
+		lineageTag: 4336a0f0-cb1a-4113-987d-c86ac062ccc5
+		sourceLineageTag: total_orders
+		summarizeBy: sum
+		sourceColumn: total_orders
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_of_total_revenue
+		dataType: double
+		lineageTag: 2c4c0082-78bf-49cd-92f2-553ed58e5dc7
+		sourceLineageTag: pct_of_total_revenue
+		summarizeBy: sum
+		sourceColumn: pct_of_total_revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_2022_usd
+		dataType: double
+		lineageTag: fadf1e6b-74e4-4423-8686-9c300d29d04b
+		sourceLineageTag: revenue_2022_usd
+		summarizeBy: sum
+		sourceColumn: revenue_2022_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_2023_usd
+		dataType: double
+		lineageTag: 08648180-0d25-400b-9b7b-7c86d5cf1c9a
+		sourceLineageTag: revenue_2023_usd
+		summarizeBy: sum
+		sourceColumn: revenue_2023_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_2024_usd
+		dataType: double
+		lineageTag: 257dfe6f-a06d-4bff-b952-736ef239134e
+		sourceLineageTag: revenue_2024_usd
+		summarizeBy: sum
+		sourceColumn: revenue_2024_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column yoy_growth_2022_2023
+		dataType: double
+		lineageTag: 3f031025-1548-4aa7-bda3-1fa7ed27f68d
+		sourceLineageTag: yoy_growth_2022_2023
+		summarizeBy: sum
+		sourceColumn: yoy_growth_2022_2023
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column yoy_growth_2023_2024
+		dataType: double
+		lineageTag: fbbae96f-265e-4c5e-852c-2bbf12e6773c
+		sourceLineageTag: yoy_growth_2023_2024
+		summarizeBy: sum
+		sourceColumn: yoy_growth_2023_2024
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column category_rank
+		dataType: int64
+		formatString: 0
+		lineageTag: 0eab0585-5fe3-4bfe-b33b-a6670cb33435
+		sourceLineageTag: category_rank
+		summarizeBy: sum
+		sourceColumn: category_rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column refreshed_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: ccde1240-752c-43b1-b2c0-c4d637a79b29
+		sourceLineageTag: refreshed_at
+		summarizeBy: none
+		sourceColumn: refreshed_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition gold_product_category_performance = entity
+		mode: directLake
+		source
+			entityName: gold_product_category_performance
+			expressionSource: 'DirectLake - GoldLakehouse'
+

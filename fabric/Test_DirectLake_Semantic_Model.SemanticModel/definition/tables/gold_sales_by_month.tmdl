@@ -1,0 +1,247 @@
+table gold_sales_by_month
+	lineageTag: 7de2315b-9011-43f7-9f54-6ad238c8e76d
+	sourceLineageTag: [dbo].[gold_sales_by_month]
+
+	column year_month
+		dataType: string
+		lineageTag: 69c1b896-22ab-468c-bebd-e497dd0fb14a
+		sourceLineageTag: year_month
+		summarizeBy: none
+		sourceColumn: year_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: b70a37e4-0c39-46d0-b1dd-35e7b4391236
+		sourceLineageTag: year
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column month
+		dataType: int64
+		formatString: 0
+		lineageTag: f8c74f2c-a934-4a2e-b194-4a7c1bcd3188
+		sourceLineageTag: month
+		summarizeBy: sum
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_name
+		dataType: string
+		lineageTag: 6ce2714d-3964-4738-9bf7-3367c5f0af9b
+		sourceLineageTag: month_name
+		summarizeBy: none
+		sourceColumn: month_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column quarter
+		dataType: int64
+		formatString: 0
+		lineageTag: 38f337ad-6f44-4f39-a9ac-133f0f8cd7bc
+		sourceLineageTag: quarter
+		summarizeBy: sum
+		sourceColumn: quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column quarter_name
+		dataType: string
+		lineageTag: 8e7baca5-036c-4724-8000-79de6adc1f80
+		sourceLineageTag: quarter_name
+		summarizeBy: none
+		sourceColumn: quarter_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiscal_year
+		dataType: int64
+		formatString: 0
+		lineageTag: fc8df688-7dd5-45ba-a5f1-6798ee268ef0
+		sourceLineageTag: fiscal_year
+		summarizeBy: sum
+		sourceColumn: fiscal_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiscal_quarter
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d26482f-74c1-4798-b903-b4534dcdc3d5
+		sourceLineageTag: fiscal_quarter
+		summarizeBy: sum
+		sourceColumn: fiscal_quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiscal_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 88efc55d-a5d7-4ee3-be9a-6919e50ffba0
+		sourceLineageTag: fiscal_month
+		summarizeBy: sum
+		sourceColumn: fiscal_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_revenue_usd
+		dataType: double
+		lineageTag: 139215da-6f51-47dd-a8f9-66c0b9d88080
+		sourceLineageTag: total_revenue_usd
+		summarizeBy: sum
+		sourceColumn: total_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_cost_usd
+		dataType: double
+		lineageTag: 2530df10-4495-47d4-9861-633e02229e61
+		sourceLineageTag: total_cost_usd
+		summarizeBy: sum
+		sourceColumn: total_cost_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_gross_profit_usd
+		dataType: double
+		lineageTag: 3c8ad17b-f8dd-4b1e-8a70-bf6715d624be
+		sourceLineageTag: total_gross_profit_usd
+		summarizeBy: sum
+		sourceColumn: total_gross_profit_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_margin_pct
+		dataType: double
+		lineageTag: d7f2539b-0e7b-4de8-bdd1-64194f00d86f
+		sourceLineageTag: gross_margin_pct
+		summarizeBy: sum
+		sourceColumn: gross_margin_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_orders
+		dataType: int64
+		formatString: 0
+		lineageTag: 5640b269-e4b6-44d5-9a08-0c271a6f288e
+		sourceLineageTag: total_orders
+		summarizeBy: sum
+		sourceColumn: total_orders
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_lines
+		dataType: int64
+		formatString: 0
+		lineageTag: 9515434f-c877-41f2-9a84-56bb948a757b
+		sourceLineageTag: total_lines
+		summarizeBy: sum
+		sourceColumn: total_lines
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_units_sold
+		dataType: int64
+		formatString: 0
+		lineageTag: a890a828-44a0-43e5-8ccc-3a206da7d9ff
+		sourceLineageTag: total_units_sold
+		summarizeBy: sum
+		sourceColumn: total_units_sold
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_order_value_usd
+		dataType: double
+		lineageTag: 48715fa2-30cf-4d5e-b151-ff2ed11c435a
+		sourceLineageTag: avg_order_value_usd
+		summarizeBy: sum
+		sourceColumn: avg_order_value_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column domestic_revenue_usd
+		dataType: double
+		lineageTag: 32108672-535c-468f-9f75-f0101cb60e41
+		sourceLineageTag: domestic_revenue_usd
+		summarizeBy: sum
+		sourceColumn: domestic_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column international_revenue_usd
+		dataType: double
+		lineageTag: d9a2e632-af36-45dc-b1b1-5ad98cb96dd7
+		sourceLineageTag: international_revenue_usd
+		summarizeBy: sum
+		sourceColumn: international_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column prior_year_revenue_usd
+		dataType: double
+		lineageTag: cc1dbbea-46ed-4a9e-aa17-02375932cf4e
+		sourceLineageTag: prior_year_revenue_usd
+		summarizeBy: sum
+		sourceColumn: prior_year_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column yoy_growth_pct
+		dataType: double
+		lineageTag: 8b571988-1aa5-4356-bd25-e482e0b81297
+		sourceLineageTag: yoy_growth_pct
+		summarizeBy: sum
+		sourceColumn: yoy_growth_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column rolling_3m_revenue_usd
+		dataType: double
+		lineageTag: ac3dbcf1-4aaf-47f8-be6c-e855c4091fa5
+		sourceLineageTag: rolling_3m_revenue_usd
+		summarizeBy: sum
+		sourceColumn: rolling_3m_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column refreshed_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5de2d640-71fe-42c6-a047-00211f1bb2f6
+		sourceLineageTag: refreshed_at
+		summarizeBy: none
+		sourceColumn: refreshed_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition gold_sales_by_month = entity
+		mode: directLake
+		source
+			entityName: gold_sales_by_month
+			expressionSource: 'DirectLake - GoldLakehouse'
+

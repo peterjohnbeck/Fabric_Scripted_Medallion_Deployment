@@ -1,0 +1,11 @@
+currency_code,currency_name,currency_symbol,is_base_currency,decimal_places,created_at
+USD,US Dollar,$,True,2,2026-03-01 20:26:44
+EUR,Euro,€,False,2,2026-03-01 20:26:44
+JPY,Japanese Yen,¥,False,0,2026-03-01 20:26:44
+KRW,South Korean Won,₩,False,0,2026-03-01 20:26:44
+MXN,Mexican Peso,$,False,2,2026-03-01 20:26:44
+CAD,Canadian Dollar,$,False,2,2026-03-01 20:26:44
+GBP,British Pound,£,False,2,2026-03-01 20:26:44
+INR,Indian Rupee,₹,False,2,2026-03-01 20:26:44
+BRL,Brazilian Real,R$,False,2,2026-03-01 20:26:44
+CNY,Chinese Yuan,¥,False,2,2026-03-01 20:26:44

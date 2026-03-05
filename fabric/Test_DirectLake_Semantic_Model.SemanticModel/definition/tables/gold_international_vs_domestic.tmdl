@@ -1,0 +1,168 @@
+table gold_international_vs_domestic
+	lineageTag: d0d246b3-9599-4caf-ba88-d62844ef4435
+	sourceLineageTag: [dbo].[gold_international_vs_domestic]
+
+	column segment
+		dataType: string
+		lineageTag: 3cf8a02f-bffb-4765-8ddc-1e2e8671dbd0
+		sourceLineageTag: segment
+		summarizeBy: none
+		sourceColumn: segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_revenue_usd
+		dataType: double
+		lineageTag: 34d0a784-b7c8-4a41-a012-78fa6f6f71ef
+		sourceLineageTag: total_revenue_usd
+		summarizeBy: sum
+		sourceColumn: total_revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_gross_profit_usd
+		dataType: double
+		lineageTag: d1937c72-1049-4ec7-8788-177f529d3191
+		sourceLineageTag: total_gross_profit_usd
+		summarizeBy: sum
+		sourceColumn: total_gross_profit_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_margin_pct
+		dataType: double
+		lineageTag: 6425075d-1f12-4994-b349-f77f006b67cd
+		sourceLineageTag: gross_margin_pct
+		summarizeBy: sum
+		sourceColumn: gross_margin_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_orders
+		dataType: int64
+		formatString: 0
+		lineageTag: fe1c8c61-447c-411c-8f8e-50556214574b
+		sourceLineageTag: total_orders
+		summarizeBy: sum
+		sourceColumn: total_orders
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_customers
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ec7a23a-6c14-4480-bad9-374e4ab1d478
+		sourceLineageTag: total_customers
+		summarizeBy: sum
+		sourceColumn: total_customers
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_order_value_usd
+		dataType: double
+		lineageTag: 0372d02a-face-4d04-8a86-8b9376f68b14
+		sourceLineageTag: avg_order_value_usd
+		summarizeBy: sum
+		sourceColumn: avg_order_value_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pct_of_total_revenue
+		dataType: double
+		lineageTag: 599bbd2f-4052-49fd-bcc0-e9ac8e4f9d4b
+		sourceLineageTag: pct_of_total_revenue
+		summarizeBy: sum
+		sourceColumn: pct_of_total_revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_2022_usd
+		dataType: double
+		lineageTag: 8d5d9d9c-00d3-42ef-9950-fb9c17e23f04
+		sourceLineageTag: revenue_2022_usd
+		summarizeBy: sum
+		sourceColumn: revenue_2022_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_2023_usd
+		dataType: double
+		lineageTag: c7df0e20-6fd6-4a8c-ac24-4e149340df2c
+		sourceLineageTag: revenue_2023_usd
+		summarizeBy: sum
+		sourceColumn: revenue_2023_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_2024_usd
+		dataType: double
+		lineageTag: 1f535a64-126f-4475-bb3d-e79545196527
+		sourceLineageTag: revenue_2024_usd
+		summarizeBy: sum
+		sourceColumn: revenue_2024_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column yoy_growth_2022_2023
+		dataType: double
+		lineageTag: 2aeab612-b9b0-4f07-9524-3af07f2c2323
+		sourceLineageTag: yoy_growth_2022_2023
+		summarizeBy: sum
+		sourceColumn: yoy_growth_2022_2023
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column yoy_growth_2023_2024
+		dataType: double
+		lineageTag: d87a70e2-bba6-4136-b3fb-3fca6fa87403
+		sourceLineageTag: yoy_growth_2023_2024
+		summarizeBy: sum
+		sourceColumn: yoy_growth_2023_2024
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column top_country_by_revenue
+		dataType: string
+		lineageTag: c3ec4a8a-2fef-47f6-b8d6-2ab7f7dc6bcf
+		sourceLineageTag: top_country_by_revenue
+		summarizeBy: none
+		sourceColumn: top_country_by_revenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column refreshed_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 52c64d2a-5daa-4684-9fb7-a4428cefe06e
+		sourceLineageTag: refreshed_at
+		summarizeBy: none
+		sourceColumn: refreshed_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition gold_international_vs_domestic = entity
+		mode: directLake
+		source
+			entityName: gold_international_vs_domestic
+			expressionSource: 'DirectLake - GoldLakehouse'
+

@@ -1,0 +1,306 @@
+table fact_sales
+	lineageTag: 1a008001-0008-4000-8000-000000000000
+	sourceLineageTag: [dbo].[fact_sales]
+
+	measure 'Total Revenue' = SUM(fact_sales[extended_price_usd])
+		formatString: #,##0.00
+		lineageTag: 1a008001-0008-4000-8000-000000000020
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Total Cost' = SUM(fact_sales[standard_cost_usd])
+		formatString: #,##0.00
+		lineageTag: 1a008001-0008-4000-8000-000000000021
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Gross Profit' = SUM(fact_sales[gross_profit_usd])
+		formatString: #,##0.00
+		lineageTag: 1a008001-0008-4000-8000-000000000022
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Gross Margin %' = DIVIDE([Gross Profit], [Total Revenue])
+		formatString: 0.00%
+		lineageTag: 1a008001-0008-4000-8000-000000000023
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Total Orders' = DISTINCTCOUNT(fact_sales[order_id])
+		formatString: #,##0
+		lineageTag: 1a008001-0008-4000-8000-000000000024
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Total Units Sold' = SUM(fact_sales[quantity])
+		formatString: #,##0
+		lineageTag: 1a008001-0008-4000-8000-000000000025
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Avg Order Value' = DIVIDE([Total Revenue], [Total Orders])
+		formatString: #,##0.00
+		lineageTag: 1a008001-0008-4000-8000-000000000026
+
+		annotation SummarizationSetBy = Automatic
+
+	column sales_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000001
+		sourceLineageTag: sales_key
+		summarizeBy: sum
+		sourceColumn: sales_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_id
+		dataType: string
+		lineageTag: 1a008001-0008-4000-8000-000000000002
+		sourceLineageTag: order_id
+		summarizeBy: none
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column line_id
+		dataType: string
+		lineageTag: 1a008001-0008-4000-8000-000000000003
+		sourceLineageTag: line_id
+		summarizeBy: none
+		sourceColumn: line_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_number
+		dataType: string
+		lineageTag: 1a008001-0008-4000-8000-000000000004
+		sourceLineageTag: order_number
+		summarizeBy: none
+		sourceColumn: order_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column line_number
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000005
+		sourceLineageTag: line_number
+		summarizeBy: sum
+		sourceColumn: line_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000006
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column shipped_date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000007
+		sourceLineageTag: shipped_date_key
+		summarizeBy: sum
+		sourceColumn: shipped_date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000008
+		sourceLineageTag: customer_key
+		summarizeBy: sum
+		sourceColumn: customer_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000009
+		sourceLineageTag: product_key
+		summarizeBy: sum
+		sourceColumn: product_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-00000000000a
+		sourceLineageTag: category_key
+		summarizeBy: sum
+		sourceColumn: category_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column employee_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-00000000000b
+		sourceLineageTag: employee_key
+		summarizeBy: sum
+		sourceColumn: employee_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column territory_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-00000000000c
+		sourceLineageTag: territory_key
+		summarizeBy: sum
+		sourceColumn: territory_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column currency_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-00000000000d
+		sourceLineageTag: currency_key
+		summarizeBy: sum
+		sourceColumn: currency_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-00000000000e
+		sourceLineageTag: quantity
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price_local
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-00000000000f
+		sourceLineageTag: unit_price_local
+		summarizeBy: sum
+		sourceColumn: unit_price_local
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column discount_pct
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000010
+		sourceLineageTag: discount_pct
+		summarizeBy: sum
+		sourceColumn: discount_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column extended_price_local
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000011
+		sourceLineageTag: extended_price_local
+		summarizeBy: sum
+		sourceColumn: extended_price_local
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column unit_price_usd
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000012
+		sourceLineageTag: unit_price_usd
+		summarizeBy: sum
+		sourceColumn: unit_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column extended_price_usd
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000013
+		sourceLineageTag: extended_price_usd
+		summarizeBy: sum
+		sourceColumn: extended_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column standard_cost_usd
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000014
+		sourceLineageTag: standard_cost_usd
+		summarizeBy: sum
+		sourceColumn: standard_cost_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_profit_usd
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000015
+		sourceLineageTag: gross_profit_usd
+		summarizeBy: sum
+		sourceColumn: gross_profit_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_margin_pct
+		dataType: double
+		lineageTag: 1a008001-0008-4000-8000-000000000016
+		sourceLineageTag: gross_margin_pct
+		summarizeBy: sum
+		sourceColumn: gross_margin_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column is_domestic
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a008001-0008-4000-8000-000000000017
+		sourceLineageTag: is_domestic
+		summarizeBy: none
+		sourceColumn: is_domestic
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_status
+		dataType: string
+		lineageTag: 1a008001-0008-4000-8000-000000000018
+		sourceLineageTag: order_status
+		summarizeBy: none
+		sourceColumn: order_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a008001-0008-4000-8000-000000000019
+		sourceLineageTag: year
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_sales = entity
+		mode: directLake
+		source
+			entityName: fact_sales
+			expressionSource: 'DirectLake - SilverLakehouse'
+

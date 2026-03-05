@@ -1,0 +1,11 @@
+category_id,category_name,category_desc,is_capital_equip,created_at
+1,CNC Machining Centers,"3-, 4-, and 5-axis vertical and horizontal milling centers",True,2026-03-01 20:26:44
+2,CNC Turning Centers,2-axis and multi-tasking CNC lathes and turning centers,True,2026-03-01 20:26:44
+3,EDM Equipment,Wire and sinker electrical discharge machining systems,True,2026-03-01 20:26:44
+4,Grinding Machines,"Surface, cylindrical, and centerless grinding equipment",True,2026-03-01 20:26:44
+5,Metal Cutting Inserts,Carbide and ceramic indexable cutting inserts (box/10),False,2026-03-01 20:26:44
+6,Toolholding Systems,"BT/CAT/HSK holders, collets, chucks, and adapters",False,2026-03-01 20:26:44
+7,Metrology Equipment,"CMMs, probing systems, and precision gauging instruments",True,2026-03-01 20:26:44
+8,Coolant Systems,"Through-spindle, high-pressure, and filtration systems",False,2026-03-01 20:26:44
+9,Automation Components,"Robotic arms, pallet changers, and material handling cells",True,2026-03-01 20:26:44
+10,Maintenance & Spare Parts,"Spindles, ballscrews, way covers, lubricants, consumables",False,2026-03-01 20:26:44

@@ -1,0 +1,188 @@
+table dim_customer
+	lineageTag: 1a007001-0007-4000-8000-000000000000
+	sourceLineageTag: [dbo].[dim_customer]
+
+	column customer_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a007001-0007-4000-8000-000000000001
+		sourceLineageTag: customer_key
+		summarizeBy: none
+		sourceColumn: customer_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_id
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000002
+		sourceLineageTag: customer_id
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column company_name
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000003
+		sourceLineageTag: company_name
+		summarizeBy: none
+		sourceColumn: company_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column contact_name
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000004
+		sourceLineageTag: contact_name
+		summarizeBy: none
+		sourceColumn: contact_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column contact_email
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000005
+		sourceLineageTag: contact_email
+		summarizeBy: none
+		sourceColumn: contact_email
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000006
+		sourceLineageTag: phone
+		summarizeBy: none
+		sourceColumn: phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column full_address
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000007
+		sourceLineageTag: full_address
+		summarizeBy: none
+		sourceColumn: full_address
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000008
+		sourceLineageTag: city
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column state_province
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-000000000009
+		sourceLineageTag: state_province
+		summarizeBy: none
+		sourceColumn: state_province
+
+		annotation SummarizationSetBy = Automatic
+
+	column postal_code
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-00000000000a
+		sourceLineageTag: postal_code
+		summarizeBy: none
+		sourceColumn: postal_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_code
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-00000000000b
+		sourceLineageTag: country_code
+		summarizeBy: none
+		sourceColumn: country_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_name
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-00000000000c
+		sourceLineageTag: country_name
+		summarizeBy: none
+		sourceColumn: country_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column territory_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a007001-0007-4000-8000-00000000000d
+		sourceLineageTag: territory_key
+		summarizeBy: none
+		sourceColumn: territory_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_domestic
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a007001-0007-4000-8000-00000000000e
+		sourceLineageTag: is_domestic
+		summarizeBy: none
+		sourceColumn: is_domestic
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_segment
+		dataType: string
+		lineageTag: 1a007001-0007-4000-8000-00000000000f
+		sourceLineageTag: customer_segment
+		summarizeBy: none
+		sourceColumn: customer_segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_active
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1a007001-0007-4000-8000-000000000010
+		sourceLineageTag: is_active
+		summarizeBy: none
+		sourceColumn: is_active
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_since
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a007001-0007-4000-8000-000000000011
+		sourceLineageTag: customer_since
+		summarizeBy: none
+		sourceColumn: customer_since
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_created_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a007001-0007-4000-8000-000000000012
+		sourceLineageTag: dw_created_at
+		summarizeBy: none
+		sourceColumn: dw_created_at
+
+		annotation SummarizationSetBy = Automatic
+
+	column dw_updated_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1a007001-0007-4000-8000-000000000013
+		sourceLineageTag: dw_updated_at
+		summarizeBy: none
+		sourceColumn: dw_updated_at
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_customer = entity
+		mode: directLake
+		source
+			entityName: dim_customer
+			expressionSource: 'DirectLake - SilverLakehouse'
+
